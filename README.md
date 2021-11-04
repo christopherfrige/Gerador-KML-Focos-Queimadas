@@ -2,7 +2,7 @@
 
 Testando a criação de KMLs por meio da biblioteca FastKML.
 
-Esse projeto é uma segunda abordagem da forma de criar KMLs, com uma biblioteca diferente da anteriormente uutilizada, que antes era a SimpleKML e agora passou a ser a FastKML. <br>
+Esse projeto é uma segunda abordagem da forma de criar KMLs, com uma biblioteca diferente da anteriormente utilizada, que antes era a SimpleKML e agora passou a ser a FastKML. <br>
 *Mais informações sobre o formato KML [aqui](https://developers.google.com/kml/documentation).*
 
 ## Desenvolvimento

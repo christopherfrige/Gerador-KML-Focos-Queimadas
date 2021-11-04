@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monitoramento de Queimadas Teste</name>
+    <description>Teste FastKML</description>
+    <visibility>1</visibility>
+    <Style id="AQUA_M-M">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="AQUA_M-T">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="GOES-16">
+      <IconStyle>
+        <color>ffff1d00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="METOP-B">
+      <IconStyle>
+        <color>ff14f0ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="METOP-C">
+      <IconStyle>
+        <color>ffcc3cf0</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="MSG-03">
+      <IconStyle>
+        <color>ffffff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-18">
+      <IconStyle>
+        <color>ff0099ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-19">
+      <IconStyle>
+        <color>ff003399</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-20">
+      <IconStyle>
+        <color>ff6666ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NPP-375">
+      <IconStyle>
+        <color>FFda01C1</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="TERRA_M-M">
+      <IconStyle>
+        <color>ffccffcc</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="TERRA_M-T">
+      <IconStyle>
+        <color>ffccffcc</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Focos por Satélite</name>
+      <description>Focos do último dia categorizado pelo satélite que o captou</description>
+      <visibility>1</visibility>
+      <Folder>
+        <name>NOAA-20</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -19.05603
+    LONG = -50.59894
+    DATA = 2021/11/01 04:10:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO SIMAO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.598940,-19.056030</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.45615
+    LONG = -50.52847
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.528470,-13.456150</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.05474
+    LONG = -47.51883
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.518830,-15.054740</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.05527
+    LONG = -47.5224
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.522400,-15.055270</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.05806
+    LONG = -47.51831
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.518310,-15.058060</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.05859
+    LONG = -47.52187
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.521870,-15.058590</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -16.1526
+    LONG = -52.3631
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BALIZA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-52.363100,-16.152600</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -16.19938
+    LONG = -52.51892
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BALIZA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-52.518920,-16.199380</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -16.77629
+    LONG = -47.91325
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = LUZIANIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.913250,-16.776290</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -17.30895
+    LONG = -52.06934
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-52.069340,-17.308950</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -17.56561
+    LONG = -52.55533
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = MINEIROS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-52.555330,-17.565610</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -17.80078
+    LONG = -47.62511
+    DATA = 2021/11/01 16:41:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CATALAO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.625110,-17.800780</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.20615
+    LONG = -50.16148
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.161480,-13.206150</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.20642
+    LONG = -50.16488
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.164880,-13.206420</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.21233
+    LONG = -50.16257
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.162570,-13.212330</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.2126
+    LONG = -50.16596
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.165960,-13.212600</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.21849
+    LONG = -50.1637
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.163700,-13.218490</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.21875
+    LONG = -50.16718
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.167180,-13.218750</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.07826
+    LONG = -48.94951
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BARRO ALTO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.949510,-15.078260</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.07841
+    LONG = -48.94619
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BARRO ALTO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.946190,-15.078410</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.07895
+    LONG = -48.9461
+    DATA = 2021/11/02 03:49:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BARRO ALTO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.946100,-15.078950</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -16.15487
+    LONG = -52.42252
+    DATA = 2021/11/02 16:22:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = BALIZA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-52.422520,-16.154870</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -14.55783
+    LONG = -46.3378
+    DATA = 2021/11/02 16:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = SITIO D'ABADIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-46.337800,-14.557830</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.02086
+    LONG = -47.40329
+    DATA = 2021/11/02 16:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.403290,-15.020860</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -15.01779
+    LONG = -47.41105
+    DATA = 2021/11/02 16:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.411050,-15.017790</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -13.28251
+    LONG = -48.68256
+    DATA = 2021/11/02 16:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = MONTIVIDIU DO NORTE
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.682560,-13.282510</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -14.07858
+    LONG = -50.71905
+    DATA = 2021/11/02 16:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-50.719050,-14.078580</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -16.91603
+    LONG = -51.57177
+    DATA = 2021/11/03 05:14:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-51.571770,-16.916030</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -18.22483
+    LONG = -48.20816
+    DATA = 2021/11/03 16:03:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CUMARI
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.208160,-18.224830</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -18.22056
+    LONG = -48.21103
+    DATA = 2021/11/03 16:03:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CUMARI
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.211030,-18.220560</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -18.22014
+    LONG = -48.20645
+    DATA = 2021/11/03 16:03:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CUMARI
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.206450,-18.220140</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT = -18.06046
+    LONG = -47.38191
+    DATA = 2021/11/03 16:03:00
+    SATÉLITE = NOAA-20
+    ESTADO = GOIAS
+    MUNICÍPIO = CATALAO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.381910,-18.060460</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>GOES-16</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 16:44:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 16:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 19:24:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.17
+    DATA = 2021/11/01 19:24:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 19:24:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 19:24:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 19:34:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 19:34:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 19:34:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 19:44:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.17
+    DATA = 2021/11/01 19:44:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 19:44:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.17
+    DATA = 2021/11/01 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.17
+    DATA = 2021/11/01 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:14:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.17
+    DATA = 2021/11/01 20:14:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:14:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 20:14:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:24:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:24:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.17
+    DATA = 2021/11/01 20:24:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.170000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:34:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:34:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:44:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:44:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.2
+    LONG = -50.15
+    DATA = 2021/11/01 20:54:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.200000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 20:54:04
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.22
+    LONG = -50.15
+    DATA = 2021/11/01 21:04:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.150000,-13.220000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -14.71
+    LONG = -46.01
+    DATA = 2021/11/02 15:23:54
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SITIO D'ABADIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-46.010000,-14.710000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -14.69
+    LONG = -46.04
+    DATA = 2021/11/02 15:33:55
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SITIO D'ABADIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-46.040000,-14.690000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -14.71
+    LONG = -46.04
+    DATA = 2021/11/02 15:33:55
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SITIO D'ABADIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-46.040000,-14.710000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 18:34:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 18:44:01
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 18:54:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:04:01
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:14:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:24:01
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:34:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:44:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.3
+    LONG = -50.4
+    DATA = 2021/11/02 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.400000,-13.300000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.42
+    DATA = 2021/11/02 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.420000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 19:54:02
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.42
+    DATA = 2021/11/02 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.420000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.3
+    LONG = -50.4
+    DATA = 2021/11/02 20:04:03
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.400000,-13.300000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -14.0
+    LONG = -50.82
+    DATA = 2021/11/02 20:13:59
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.820000,-14.000000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 20:14:01
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -14.0
+    LONG = -50.82
+    DATA = 2021/11/02 20:23:57
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.820000,-14.000000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -13.32
+    LONG = -50.39
+    DATA = 2021/11/02 20:34:01
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-50.390000,-13.320000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -15.41
+    LONG = -47.29
+    DATA = 2021/11/03 18:03:49
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-47.290000,-15.410000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT = -15.41
+    LONG = -47.31
+    DATA = 2021/11/03 18:03:49
+    SATÉLITE = GOES-16
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-47.310000,-15.410000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>AQUA_M-T</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>AQUA_M-T</name>
+          <description>LAT = -15.05447
+    LONG = -47.52034
+    DATA = 2021/11/01 17:05:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>AQUA_M-T</styleUrl>
+          <Point>
+            <coordinates>-47.520340,-15.054470</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>AQUA_M-T</name>
+          <description>LAT = -15.05608
+    LONG = -47.53081
+    DATA = 2021/11/01 17:05:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>AQUA_M-T</styleUrl>
+          <Point>
+            <coordinates>-47.530810,-15.056080</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>AQUA_M-T</name>
+          <description>LAT = -18.2204
+    LONG = -48.20864
+    DATA = 2021/11/03 16:50:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIAS
+    MUNICÍPIO = CUMARI
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>AQUA_M-T</styleUrl>
+          <Point>
+            <coordinates>-48.208640,-18.220400</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>NPP-375</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.20636
+    LONG = -50.16308
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.163080,-13.206360</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.20755
+    LONG = -50.15955
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.159550,-13.207550</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.20828
+    LONG = -50.16334
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.163340,-13.208280</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.2112
+    LONG = -50.15834
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.158340,-13.211200</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21198
+    LONG = -50.1622
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.162200,-13.211980</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21314
+    LONG = -50.15854
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.158540,-13.213140</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21388
+    LONG = -50.16243
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.162430,-13.213880</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21679
+    LONG = -50.15734
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.157340,-13.216790</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21758
+    LONG = -50.16125
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.161250,-13.217580</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -15.30334
+    LONG = -48.69262
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = VILA PROPICIO
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-48.692620,-15.303340</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.60664
+    LONG = -47.8801
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = LUZIANIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.880100,-16.606640</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.60736
+    LONG = -47.87854
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = LUZIANIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.878540,-16.607360</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -17.30374
+    LONG = -52.06388
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.063880,-17.303740</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.20561
+    LONG = -50.15934
+    DATA = 2021/11/01 17:34:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.159340,-13.205610</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.20841
+    LONG = -50.15848
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.158480,-13.208410</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.2112
+    LONG = -50.16264
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.162640,-13.211200</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21176
+    LONG = -50.15902
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.159020,-13.211760</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21511
+    LONG = -50.15957
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.159570,-13.215110</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.2179
+    LONG = -50.16374
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.163740,-13.217900</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21846
+    LONG = -50.16012
+    DATA = 2021/11/02 04:42:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.160120,-13.218460</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.46213
+    LONG = -52.19604
+    DATA = 2021/11/02 04:44:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.196040,-18.462130</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.45881
+    LONG = -52.19547
+    DATA = 2021/11/02 04:44:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.195470,-18.458810</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -17.00044
+    LONG = -53.05279
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SANTA RITA DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-53.052790,-17.000440</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -15.93599
+    LONG = -47.063
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CABECEIRAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.063000,-15.935990</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -15.93563
+    LONG = -47.06085
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CABECEIRAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.060850,-15.935630</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -15.02177
+    LONG = -47.40672
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = FORMOSA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.406720,-15.021770</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.70289
+    LONG = -47.80443
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = AGUA FRIA DE GOIAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.804430,-14.702890</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.66128
+    LONG = -47.24164
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO JOAO D'ALIANCA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.241640,-14.661280</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.63359
+    LONG = -47.02706
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = FLORES DE GOIAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.027060,-14.633590</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.28301
+    LONG = -52.50135
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.501350,-18.283010</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.27961
+    LONG = -52.50198
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.501980,-18.279610</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.90218
+    LONG = -51.27154
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.271540,-16.902180</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.90208
+    LONG = -51.2707
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.270700,-16.902080</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -19.13425
+    LONG = -51.34497
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = LAGOA SANTA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.344970,-19.134250</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.07854
+    LONG = -51.43081
+    DATA = 2021/11/02 17:13:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = JATAI
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.430810,-18.078540</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.21085
+    LONG = -50.72194
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.721940,-14.210850</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.8815
+    LONG = -50.69826
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.698260,-13.881500</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.32205
+    LONG = -50.40668
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.406680,-13.322050</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.21454
+    LONG = -46.82588
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = MONTE ALEGRE DE GOIAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-46.825880,-13.214540</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.46694
+    LONG = -49.80888
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = BONOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-49.808880,-13.466940</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.32267
+    LONG = -50.41024
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SAO MIGUEL DO ARAGUAIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.410240,-13.322670</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.29908
+    LONG = -46.42118
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = DIVINOPOLIS DE GOIAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-46.421180,-13.299080</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.02602
+    LONG = -50.74222
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.742220,-14.026020</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.20605
+    LONG = -50.71456
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.714560,-14.206050</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.20611
+    LONG = -50.71763
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.717630,-14.206110</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.21082
+    LONG = -50.71887
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.718870,-14.210820</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -14.20693
+    LONG = -50.71956
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.719560,-14.206930</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.93656
+    LONG = -50.62021
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.620210,-13.936560</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.88541
+    LONG = -50.69756
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.697560,-13.885410</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.88271
+    LONG = -50.70137
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.701370,-13.882710</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.88238
+    LONG = -50.70329
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.703290,-13.882380</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -13.88185
+    LONG = -50.69632
+    DATA = 2021/11/02 17:15:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = NOVA CRIXAS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.696320,-13.881850</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.28263
+    LONG = -52.50011
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.500110,-18.282630</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.28356
+    LONG = -52.49496
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = SERRANOPOLIS
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-52.494960,-18.283560</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -18.70591
+    LONG = -50.91706
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CACHOEIRA ALTA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-50.917060,-18.705910</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.91128
+    LONG = -51.56829
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.568290,-16.911280</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.91508
+    LONG = -51.56907
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = CAIAPONIA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.569070,-16.915080</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT = -16.40345
+    LONG = -51.12978
+    DATA = 2021/11/03 04:23:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIAS
+    MUNICÍPIO = IPORA
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-51.129780,-16.403450</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <ScreenOverlay>
+      <name>Logo</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/logo.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.7" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <ScreenOverlay>
+      <name>Legenda</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/legend.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.55" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+  </Document>
+</kml>
+        

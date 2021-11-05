@@ -7,6 +7,13 @@ Esse projeto é uma segunda abordagem da forma de criar KMLs, com uma biblioteca
 
 Dessa forma, apesar de todos os testes estarem utilizando a FastKML, foi estudado diferentes formas de gerar o arquivo, seja por meio de um CSV com dados predefinidos, ou utilizando informações dentro de um banco de dados.
 
+## Versões
+
+Atualmente o projeto conta com dois Notebooks, correspondentes a dois testes:
+
+- **Pandas-CSV** - Gera o arquivo KML por meio de um CSV com os dados preestabelecidos, utilizando a biblioteca Pandas para a leitura, montagem e filtragem do dataframe
+- **Pandas-SQLAlchemy** - Gera o arquivo KML por meio de consulta no banco de dados, operação que foi feita usando a biblioteca SQLAlchemy.
+
 ## Desenvolvimento
 
 ### Versão Pandas-CSV
@@ -20,13 +27,6 @@ Com os dados obtidos, construiu-se o KML a partir da biblioteca FastKML, em que 
 Desenvolvida posteriormente à supracitada, foi construido o KML por meio de uma conexão e consulta a um banco de dados, utilizando um método nativo do pandas chamado **read_sql**, no qual foi preciso a biblioteca SQLAlchemy em conjunto com a psycopg2 para coletar os dados desejados. <br>
 
 A maior peculiaridade envolvida nessa biblioteca KML (FastKML), e que diverge da SimpleKML, é que a utilizada nesse projeto não possui um método para a inclusão da **Logo** e **Legenda**, essa última sendo uma característica importante na hora da análise geográfica, seja pelo Google Earth ou por qualquer outra ferramenta.
-
-## Versões
-
-Atualmente o projeto conta com dois Notebooks, correspondentes a dois testes:
-
-- Gerar o arquivo KML por meio de um CSV com os dados preestabelecidos, utilizando a biblioteca Pandas para a leitura, montagem e filtragem do dataframe
-- Gerar o arquivo KML por meio de consultas no banco de dados, operação que foi feita usando a biblioteca SQLAlchemy, 
 
 ## Requisitos
 

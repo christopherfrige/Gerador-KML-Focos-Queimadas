@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monitoramento de Queimadas Teste</name>
+    <description>Teste Pandas/SQLAlchemy</description>
+    <visibility>1</visibility>
+    <Style id="AQUA_M-M">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="AQUA_M-T">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="GOES-16">
+      <IconStyle>
+        <color>ffff1d00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="METOP-B">
+      <IconStyle>
+        <color>ff14f0ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="METOP-C">
+      <IconStyle>
+        <color>ffcc3cf0</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="MSG-03">
+      <IconStyle>
+        <color>ffffff00</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-18">
+      <IconStyle>
+        <color>ff0099ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-19">
+      <IconStyle>
+        <color>ff003399</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NOAA-20">
+      <IconStyle>
+        <color>ff6666ff</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="NPP-375">
+      <IconStyle>
+        <color>FFda01C1</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="TERRA_M-M">
+      <IconStyle>
+        <color>ffccffcc</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="TERRA_M-T">
+      <IconStyle>
+        <color>ffccffcc</color>
+        <scale>0.8</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.6</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Focos por Satélite</name>
+      <description>Focos do último dia categorizado pelo satélite que o captou</description>
+      <visibility>1</visibility>
+      <Folder>
+        <name>NPP-375</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -22.695
+    LONG =  -47.657
+    DATA = 2021-11-04 04:06:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = PIRACICABA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.657000,-22.695000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -22.695
+    LONG =  -47.658
+    DATA = 2021-11-04 16:35:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = PIRACICABA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.658000,-22.695000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -23.467
+    LONG =  -49.425
+    DATA = 2021-11-04 16:35:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = TAGUAÍ
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-49.425000,-23.467000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -22.538
+    LONG =  -48.811
+    DATA = 2021-11-04 04:06:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = MACATUBA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-48.811000,-22.538000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -22.987
+    LONG =  -48.656
+    DATA = 2021-11-04 04:06:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = ITATINGA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-48.656000,-22.987000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -22.980
+    LONG =  -48.647
+    DATA = 2021-11-04 04:06:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = ITATINGA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-48.647000,-22.980000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NPP-375</name>
+          <description>LAT =  -23.593
+    LONG =  -47.438
+    DATA = 2021-11-04 04:08:00
+    SATÉLITE = NPP-375
+    ESTADO = SP
+    MUNICÍPIO = VOTORANTIM
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NPP-375</styleUrl>
+          <Point>
+            <coordinates>-47.438000,-23.593000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>NOAA-20</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.694
+    LONG =  -47.659
+    DATA = 2021-11-04 04:55:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = PIRACICABA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.659000,-22.694000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.694
+    LONG =  -47.658
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = PIRACICABA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.658000,-22.694000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.046
+    LONG =  -49.180
+    DATA = 2021-11-04 17:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = CERQUEIRA CÉSAR
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-49.180000,-23.046000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.537
+    LONG =  -48.814
+    DATA = 2021-11-04 04:55:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = MACATUBA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.814000,-22.537000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.541
+    LONG =  -48.815
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = MACATUBA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.815000,-22.541000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.982
+    LONG =  -48.647
+    DATA = 2021-11-04 04:55:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = ITATINGA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.647000,-22.982000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.367
+    LONG =  -48.350
+    DATA = 2021-11-04 17:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = DOIS CÓRREGOS
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.350000,-22.367000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -22.365
+    LONG =  -48.345
+    DATA = 2021-11-04 17:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = DOIS CÓRREGOS
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.345000,-22.365000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.920
+    LONG =  -48.144
+    DATA = 2021-11-04 17:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = SÃO MIGUEL ARCANJO
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.144000,-23.920000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.918
+    LONG =  -48.147
+    DATA = 2021-11-04 17:24:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = SÃO MIGUEL ARCANJO
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-48.147000,-23.918000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.593
+    LONG =  -47.441
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = VOTORANTIM
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.441000,-23.593000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.207
+    LONG =  -47.288
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = SALTO
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.288000,-23.207000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.206
+    LONG =  -47.286
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = SALTO
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.286000,-23.206000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.439
+    LONG =  -47.087
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = ARAÇARIGUAMA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.087000,-23.439000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-20</name>
+          <description>LAT =  -23.438
+    LONG =  -47.089
+    DATA = 2021-11-05 04:36:00
+    SATÉLITE = NOAA-20
+    ESTADO = SP
+    MUNICÍPIO = ARAÇARIGUAMA
+    VERSÃO = 2.0NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-20</styleUrl>
+          <Point>
+            <coordinates>-47.089000,-23.438000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>TERRA_M-T</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>TERRA_M-T</name>
+          <description>LAT =  -23.400
+    LONG =  -49.662
+    DATA = 2021-11-05 13:46:00
+    SATÉLITE = TERRA_M-T
+    ESTADO = PR
+    MUNICÍPIO = CARLÓPOLIS
+    VERSÃO = 6.1NRT    
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>TERRA_M-T</styleUrl>
+          <Point>
+            <coordinates>-49.662000,-23.400000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>GOES-16</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT =  -23.030
+    LONG =  -49.270
+    DATA = 2021-11-04 22:30:00
+    SATÉLITE = GOES-16
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.1       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-49.270000,-23.030000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>GOES-16</name>
+          <description>LAT =  -23.050
+    LONG =  -49.270
+    DATA = 2021-11-04 22:30:00
+    SATÉLITE = GOES-16
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.1       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>GOES-16</styleUrl>
+          <Point>
+            <coordinates>-49.270000,-23.050000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>NOAA-19</name>
+        <visibility>1</visibility>
+        <Placemark>
+          <name>NOAA-19</name>
+          <description>LAT =  -23.062
+    LONG =  -49.288
+    DATA = 2021-11-04 22:31:43
+    SATÉLITE = NOAA-19
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.2       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-19</styleUrl>
+          <Point>
+            <coordinates>-49.288000,-23.062000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-19</name>
+          <description>LAT =  -23.052
+    LONG =  -49.282
+    DATA = 2021-11-04 22:31:43
+    SATÉLITE = NOAA-19
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.2       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-19</styleUrl>
+          <Point>
+            <coordinates>-49.282000,-23.052000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-19</name>
+          <description>LAT =  -23.053
+    LONG =  -49.290
+    DATA = 2021-11-04 22:31:43
+    SATÉLITE = NOAA-19
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.2       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-19</styleUrl>
+          <Point>
+            <coordinates>-49.290000,-23.053000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-19</name>
+          <description>LAT =  -23.054
+    LONG =  -49.299
+    DATA = 2021-11-04 22:31:43
+    SATÉLITE = NOAA-19
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.2       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-19</styleUrl>
+          <Point>
+            <coordinates>-49.299000,-23.054000</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>NOAA-19</name>
+          <description>LAT =  -23.055
+    LONG =  -49.307
+    DATA = 2021-11-04 22:31:43
+    SATÉLITE = NOAA-19
+    ESTADO = SP
+    MUNICÍPIO = MANDURI
+    VERSÃO = V.2       
+    </description>
+          <visibility>1</visibility>
+          <styleUrl>NOAA-19</styleUrl>
+          <Point>
+            <coordinates>-49.307000,-23.055000</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <ScreenOverlay>
+      <name>Logo</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/logo.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.7" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <ScreenOverlay>
+      <name>Legenda</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/legend.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.55" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+  </Document>
+</kml>
+        

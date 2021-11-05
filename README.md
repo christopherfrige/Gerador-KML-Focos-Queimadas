@@ -18,7 +18,7 @@ Atualmente o projeto conta com dois Notebooks, correspondentes a dois testes:
 
 ### Versão Pandas-CSV
 
-A costrução do projeto teve como início a leitura de um arquivo CSV gerado por meio do sistema de monitoramento BDQueimadas, desenvolvido pelo INPE. Dessa forma, por meio da biblioteca Pandas filtrou-se as colunas desejadas e trabalhou-se com os dados adquiridos. <br>
+A construção do projeto teve como início a leitura de um arquivo CSV gerado por meio do sistema de monitoramento BDQueimadas, desenvolvido pelo INPE. Dessa forma, por meio da biblioteca Pandas filtrou-se as colunas desejadas e trabalhou-se com os dados adquiridos. <br>
 
 Com os dados obtidos, construiu-se o KML a partir da biblioteca FastKML, em que a geração do KML é feita num formato semelhante a estar adicionando itens numa lista, por meio do **append**. <br>
 

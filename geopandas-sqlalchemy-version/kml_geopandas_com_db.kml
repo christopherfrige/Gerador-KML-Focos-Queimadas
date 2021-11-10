@@ -3,32 +3,32 @@
     <name>Monitoramento de Queimadas Teste</name>
     <description>Teste Geopandas/SQLAlchemy</description>
     <visibility>1</visibility>
-    <StyleMap id="teste3">
+    <StyleMap id="polygon-stylized">
       <Pair>
         <key>normal</key>
-        <Style id="teste">
+        <Style>
           <PolyStyle>
-            <color>4b14B4FF</color>
+            <color>4614B4FF</color>
             <fill>1</fill>
             <outline>1</outline>
           </PolyStyle>
           <LineStyle>
             <color>FFFFFFFF</color>
-            <width>20</width>
+            <width>1</width>
           </LineStyle>
         </Style>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <Style id="teste2">
+        <Style>
           <PolyStyle>
-            <color>FF14F000</color>
+            <color>1e14B4FF</color>
             <fill>1</fill>
             <outline>1</outline>
           </PolyStyle>
           <LineStyle>
-            <color>FF000000</color>
-            <width>20</width>
+            <color>FF0000FF</color>
+            <width>1</width>
           </LineStyle>
         </Style>
       </Pair>
@@ -191,1402 +191,90 @@
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.827320,-22.928970 -48.827320,-22.938970 -48.837320,-22.938970 -48.837320,-22.928970 -48.827320,-22.928970</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-52.940290,-16.944960</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.829610,-22.928020 -48.829610,-22.938020 -48.839610,-22.938020 -48.839610,-22.928020 -48.829610,-22.928020</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-52.944660,-16.945910</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.654460,-22.688550 -47.654460,-22.698550 -47.664460,-22.698550 -47.664460,-22.688550 -47.654460,-22.688550</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.135960,-13.915340</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.653170,-22.689380 -47.653170,-22.699380 -47.663170,-22.699380 -47.663170,-22.689380 -47.653170,-22.689380</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.133500,-13.920080</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.650130,-22.691580 -47.650130,-22.701580 -47.660130,-22.701580 -47.660130,-22.691580 -47.650130,-22.691580</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.600940,-14.278420</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.653120,-22.688120 -47.653120,-22.698120 -47.663120,-22.698120 -47.663120,-22.688120 -47.653120,-22.688120</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.600320,-14.280680</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.653740,-22.691440 -47.653740,-22.701440 -47.663740,-22.701440 -47.663740,-22.691440 -47.653740,-22.691440</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.808790,-14.649940</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.651590,-22.691060 -47.651590,-22.701060 -47.661590,-22.701060 -47.661590,-22.691060 -47.651590,-22.691060</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.853880,-14.666570</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.881130,-22.683240 -47.881130,-22.693240 -47.891130,-22.693240 -47.891130,-22.683240 -47.881130,-22.683240</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.858070,-14.667020</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.304450,-23.681750 -47.304450,-23.691750 -47.314450,-23.691750 -47.314450,-23.681750 -47.304450,-23.681750</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.937770,-16.498600</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.654290,-23.392400 -49.654290,-23.402400 -49.664290,-23.402400 -49.664290,-23.392400 -49.654290,-23.392400</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.476900,-23.279290 -49.476900,-23.289290 -49.486900,-23.289290 -49.486900,-23.279290 -49.476900,-23.279290</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.175320,-23.041490 -49.175320,-23.051490 -49.185320,-23.051490 -49.185320,-23.041490 -49.175320,-23.041490</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.141420,-23.311600 -49.141420,-23.321600 -49.151420,-23.321600 -49.151420,-23.311600 -49.141420,-23.311600</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.666850,-22.825180 -48.666850,-22.835180 -48.676850,-22.835180 -48.676850,-22.825180 -48.666850,-22.825180</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.808900,-22.532280 -48.808900,-22.542280 -48.818900,-22.542280 -48.818900,-22.532280 -48.808900,-22.532280</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.810300,-22.535540 -48.810300,-22.545540 -48.820300,-22.545540 -48.820300,-22.535540 -48.810300,-22.535540</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.808180,-22.534800 -48.808180,-22.544800 -48.818180,-22.544800 -48.818180,-22.534800 -48.808180,-22.534800</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.642140,-22.976680 -48.642140,-22.986680 -48.652140,-22.986680 -48.652140,-22.976680 -48.642140,-22.976680</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.345010,-22.361540 -48.345010,-22.371540 -48.355010,-22.371540 -48.355010,-22.361540 -48.345010,-22.361540</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.339620,-22.360420 -48.339620,-22.370420 -48.349620,-22.370420 -48.349620,-22.360420 -48.339620,-22.360420</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.359040,-22.346240 -48.359040,-22.356240 -48.369040,-22.356240 -48.369040,-22.346240 -48.359040,-22.346240</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.355170,-22.345690 -48.355170,-22.355690 -48.365170,-22.355690 -48.365170,-22.345690 -48.355170,-22.345690</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.140260,-23.453950 -48.140260,-23.463950 -48.150260,-23.463950 -48.150260,-23.453950 -48.140260,-23.453950</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.135870,-23.453460 -48.135870,-23.463460 -48.145870,-23.463460 -48.145870,-23.453460 -48.135870,-23.453460</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.140920,-23.449690 -48.140920,-23.459690 -48.150920,-23.459690 -48.150920,-23.449690 -48.140920,-23.449690</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.136560,-23.449200 -48.136560,-23.459200 -48.146560,-23.459200 -48.146560,-23.449200 -48.136560,-23.449200</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.132200,-23.448710 -48.132200,-23.458710 -48.142200,-23.458710 -48.142200,-23.448710 -48.132200,-23.448710</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.139250,-23.915030 -48.139250,-23.925030 -48.149250,-23.925030 -48.149250,-23.915030 -48.139250,-23.915030</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.142300,-23.912730 -48.142300,-23.922730 -48.152300,-23.922730 -48.152300,-23.912730 -48.142300,-23.912730</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.892010,-23.883650 -47.892010,-23.893650 -47.902010,-23.893650 -47.902010,-23.883650 -47.892010,-23.883650</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.139010,-23.914040 -48.139010,-23.924040 -48.149010,-23.924040 -48.149010,-23.914040 -48.139010,-23.914040</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.107830,-23.959460 -48.107830,-23.969460 -48.117830,-23.969460 -48.117830,-23.959460 -48.107830,-23.959460</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.112630,-23.955630 -48.112630,-23.965630 -48.122630,-23.965630 -48.122630,-23.955630 -48.112630,-23.955630</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.108380,-23.955170 -48.108380,-23.965170 -48.118380,-23.965170 -48.118380,-23.955170 -48.108380,-23.955170</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.106830,-23.952370 -48.106830,-23.962370 -48.116830,-23.962370 -48.116830,-23.952370 -48.106830,-23.952370</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.113270,-23.951340 -48.113270,-23.961340 -48.123270,-23.961340 -48.123270,-23.951340 -48.113270,-23.951340</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.108930,-23.950870 -48.108930,-23.960870 -48.118930,-23.960870 -48.118930,-23.950870 -48.108930,-23.950870</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.116080,-23.949070 -48.116080,-23.959070 -48.126080,-23.959070 -48.126080,-23.949070 -48.116080,-23.949070</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.111730,-23.948570 -48.111730,-23.958570 -48.121730,-23.958570 -48.121730,-23.948570 -48.111730,-23.948570</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.113920,-23.947050 -48.113920,-23.957050 -48.123920,-23.957050 -48.123920,-23.947050 -48.113920,-23.947050</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.887880,-23.346150 -47.887880,-23.356150 -47.897880,-23.356150 -47.897880,-23.346150 -47.887880,-23.346150</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.956260,-23.331840 -47.956260,-23.341840 -47.966260,-23.341840 -47.966260,-23.331840 -47.956260,-23.331840</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.956960,-23.328230 -47.956960,-23.338230 -47.966960,-23.338230 -47.966960,-23.328230 -47.956960,-23.328230</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.884150,-23.354150 -47.884150,-23.364150 -47.894150,-23.364150 -47.894150,-23.354150 -47.884150,-23.354150</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.977530,-23.414240 -47.977530,-23.424240 -47.987530,-23.424240 -47.987530,-23.414240 -47.977530,-23.414240</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.722080,-23.719450 -47.722080,-23.729450 -47.732080,-23.729450 -47.732080,-23.719450 -47.722080,-23.719450</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.819630,-23.804530 -47.819630,-23.814530 -47.829630,-23.814530 -47.829630,-23.804530 -47.819630,-23.804530</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-46.910680,-23.407280 -46.910680,-23.417280 -46.920680,-23.417280 -46.920680,-23.407280 -46.910680,-23.407280</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-46.911320,-23.403330 -46.911320,-23.413330 -46.921320,-23.413330 -46.921320,-23.403330 -46.911320,-23.403330</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.481320,-23.243470 -47.481320,-23.253470 -47.491320,-23.253470 -47.491320,-23.243470 -47.481320,-23.243470</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.479810,-23.238300 -47.479810,-23.248300 -47.489810,-23.248300 -47.489810,-23.238300 -47.479810,-23.238300</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.483340,-23.237510 -47.483340,-23.247510 -47.493340,-23.247510 -47.493340,-23.237510 -47.483340,-23.237510</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.458660,-23.368080 -47.458660,-23.378080 -47.468660,-23.378080 -47.468660,-23.368080 -47.458660,-23.368080</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.435920,-23.587520 -47.435920,-23.597520 -47.445920,-23.597520 -47.445920,-23.587520 -47.435920,-23.587520</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.434960,-23.590030 -47.434960,-23.600030 -47.444960,-23.600030 -47.444960,-23.590030 -47.434960,-23.590030</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.434350,-23.586720 -47.434350,-23.596720 -47.444350,-23.596720 -47.444350,-23.586720 -47.434350,-23.586720</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.433950,-23.587620 -47.433950,-23.597620 -47.443950,-23.597620 -47.443950,-23.587620 -47.433950,-23.587620</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.283090,-23.201620 -47.283090,-23.211620 -47.293090,-23.211620 -47.293090,-23.201620 -47.283090,-23.201620</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.280820,-23.200500 -47.280820,-23.210500 -47.290820,-23.210500 -47.290820,-23.200500 -47.280820,-23.200500</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.047340,-23.516750 -47.047340,-23.526750 -47.057340,-23.526750 -47.057340,-23.516750 -47.047340,-23.516750</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.027710,-23.527420 -47.027710,-23.537420 -47.037710,-23.537420 -47.037710,-23.527420 -47.027710,-23.527420</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.026800,-23.523630 -47.026800,-23.533630 -47.036800,-23.533630 -47.036800,-23.523630 -47.026800,-23.523630</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.083200,-23.329280 -47.083200,-23.339280 -47.093200,-23.339280 -47.093200,-23.329280 -47.083200,-23.329280</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.086950,-23.328690 -47.086950,-23.338690 -47.096950,-23.338690 -47.096950,-23.328690 -47.086950,-23.328690</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.087250,-23.332400 -47.087250,-23.342400 -47.097250,-23.342400 -47.097250,-23.332400 -47.087250,-23.332400</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.083490,-23.331840 -47.083490,-23.341840 -47.093490,-23.341840 -47.093490,-23.331840 -47.083490,-23.331840</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.105530,-23.254020 -47.105530,-23.264020 -47.115530,-23.264020 -47.115530,-23.254020 -47.105530,-23.254020</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.105070,-23.252100 -47.105070,-23.262100 -47.115070,-23.262100 -47.115070,-23.252100 -47.105070,-23.252100</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.082360,-23.433600 -47.082360,-23.443600 -47.092360,-23.443600 -47.092360,-23.433600 -47.082360,-23.433600</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.084200,-23.433220 -47.084200,-23.443220 -47.094200,-23.443220 -47.094200,-23.433220 -47.084200,-23.433220</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.082590,-23.434500 -47.082590,-23.444500 -47.092590,-23.444500 -47.092590,-23.434500 -47.082590,-23.434500</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.042250,-23.458080 -47.042250,-23.468080 -47.052250,-23.468080 -47.052250,-23.458080 -47.042250,-23.458080</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.080910,-23.436570 -47.080910,-23.446570 -47.090910,-23.446570 -47.090910,-23.436570 -47.080910,-23.436570</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.081240,-23.435720 -47.081240,-23.445720 -47.091240,-23.445720 -47.091240,-23.435720 -47.081240,-23.435720</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>NPP-375</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.081100,-23.684600 -48.081100,-23.694600 -48.091100,-23.694600 -48.091100,-23.684600 -48.081100,-23.684600</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.651690,-22.689850 -47.651690,-22.699850 -47.661690,-22.699850 -47.661690,-22.689850 -47.651690,-22.689850</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.652950,-22.689810 -47.652950,-22.699810 -47.662950,-22.699810 -47.662950,-22.689810 -47.652950,-22.689810</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.659590,-22.780330 -47.659590,-22.790330 -47.669590,-22.790330 -47.669590,-22.780330 -47.659590,-22.780330</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.763900,-22.672380 -47.763900,-22.682380 -47.773900,-22.682380 -47.773900,-22.672380 -47.763900,-22.672380</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.651790,-22.691390 -47.651790,-22.701390 -47.661790,-22.701390 -47.661790,-22.691390 -47.651790,-22.691390</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.653290,-22.689890 -47.653290,-22.699890 -47.663290,-22.699890 -47.663290,-22.689890 -47.653290,-22.689890</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.477490,-23.280870 -49.477490,-23.290870 -49.487490,-23.290870 -49.487490,-23.280870 -49.477490,-23.280870</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.420130,-23.462390 -49.420130,-23.472390 -49.430130,-23.472390 -49.430130,-23.462390 -49.420130,-23.462390</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.323350,-23.208330 -49.323350,-23.218330 -49.333350,-23.218330 -49.333350,-23.208330 -49.323350,-23.208330</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.323450,-23.204960 -49.323450,-23.214960 -49.333450,-23.214960 -49.333450,-23.204960 -49.323450,-23.204960</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.663540,-22.825290 -48.663540,-22.835290 -48.673540,-22.835290 -48.673540,-22.825290 -48.663540,-22.825290</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.806350,-22.533430 -48.806350,-22.543430 -48.816350,-22.543430 -48.816350,-22.533430 -48.806350,-22.533430</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.650820,-22.982490 -48.650820,-22.992490 -48.660820,-22.992490 -48.660820,-22.982490 -48.650820,-22.982490</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.642030,-22.974800 -48.642030,-22.984800 -48.652030,-22.984800 -48.652030,-22.974800 -48.642030,-22.974800</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.362690,-22.192480 -48.362690,-22.202480 -48.372690,-22.202480 -48.372690,-22.192480 -48.362690,-22.192480</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.360830,-22.343520 -48.360830,-22.353520 -48.370830,-22.353520 -48.370830,-22.343520 -48.360830,-22.343520</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.958340,-23.326330 -47.958340,-23.336330 -47.968340,-23.336330 -47.968340,-23.326330 -47.958340,-23.326330</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.139450,-23.451510 -48.139450,-23.461510 -48.149450,-23.461510 -48.149450,-23.451510 -48.139450,-23.451510</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.872380,-23.203390 -47.872380,-23.213390 -47.882380,-23.213390 -47.882380,-23.203390 -47.872380,-23.203390</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.889470,-23.345790 -47.889470,-23.355790 -47.899470,-23.355790 -47.899470,-23.345790 -47.889470,-23.345790</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.957650,-23.331480 -47.957650,-23.341480 -47.967650,-23.341480 -47.967650,-23.331480 -47.957650,-23.331480</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.954290,-23.331160 -47.954290,-23.341160 -47.964290,-23.341160 -47.964290,-23.331160 -47.954290,-23.331160</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.955030,-23.326010 -47.955030,-23.336010 -47.965030,-23.336010 -47.965030,-23.326010 -47.955030,-23.326010</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-46.911260,-23.405990 -46.911260,-23.415990 -46.921260,-23.415990 -46.921260,-23.405990 -46.911260,-23.405990</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.433130,-23.587530 -47.433130,-23.597530 -47.443130,-23.597530 -47.443130,-23.587530 -47.433130,-23.587530</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.433270,-23.589290 -47.433270,-23.599290 -47.443270,-23.599290 -47.443270,-23.589290 -47.433270,-23.589290</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.246630,-23.359390 -47.246630,-23.369390 -47.256630,-23.369390 -47.256630,-23.359390 -47.246630,-23.359390</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.082910,-23.331030 -47.082910,-23.341030 -47.092910,-23.341030 -47.092910,-23.331030 -47.082910,-23.331030</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.088650,-23.330580 -47.088650,-23.340580 -47.098650,-23.340580 -47.098650,-23.330580 -47.088650,-23.330580</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.082210,-23.330380 -47.082210,-23.340380 -47.092210,-23.340380 -47.092210,-23.330380 -47.082210,-23.330380</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.087800,-23.329980 -47.087800,-23.339980 -47.097800,-23.339980 -47.097800,-23.329980 -47.087800,-23.329980</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.083250,-23.324480 -47.083250,-23.334480 -47.093250,-23.334480 -47.093250,-23.324480 -47.083250,-23.324480</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.079180,-23.434100 -47.079180,-23.444100 -47.089180,-23.444100 -47.089180,-23.434100 -47.079180,-23.434100</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.081300,-23.433940 -47.081300,-23.443940 -47.091300,-23.443940 -47.091300,-23.433940 -47.081300,-23.433940</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.083630,-23.433490 -47.083630,-23.443490 -47.093630,-23.443490 -47.093630,-23.433490 -47.083630,-23.433490</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-46.834560,-23.614910 -46.834560,-23.624910 -46.844560,-23.624910 -46.844560,-23.614910 -46.834560,-23.614910</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>TERRA_M-T</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.039990,-23.678610 -48.039990,-23.688610 -48.049990,-23.688610 -48.049990,-23.678610 -48.039990,-23.678610</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.686070,-22.793050 -47.686070,-22.803050 -47.696070,-22.803050 -47.696070,-22.793050 -47.686070,-22.793050</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.657050,-23.394680 -49.657050,-23.404680 -49.667050,-23.404680 -49.667050,-23.394680 -49.657050,-23.394680</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.099110,-23.955610 -48.099110,-23.965610 -48.109110,-23.965610 -48.109110,-23.955610 -48.099110,-23.955610</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.937490,-16.505000</coordinates>
+            </Point>
           </Placemark>
         </Folder>
         <Folder>
@@ -1595,278 +283,350 @@
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.745000,-23.475000 -49.745000,-23.485000 -49.755000,-23.485000 -49.755000,-23.475000 -49.745000,-23.475000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.240000,-18.580000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.735000,-23.495000 -49.735000,-23.505000 -49.745000,-23.505000 -49.745000,-23.495000 -49.735000,-23.495000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-46.690000,-13.560000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.275000,-23.195000 -49.275000,-23.205000 -49.285000,-23.205000 -49.285000,-23.195000 -49.275000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.990000,-18.330000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.255000,-23.195000 -49.255000,-23.205000 -49.265000,-23.205000 -49.265000,-23.195000 -49.255000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-46.690000,-13.560000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.265000,-23.025000 -49.265000,-23.035000 -49.275000,-23.035000 -49.275000,-23.025000 -49.265000,-23.025000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.380000,-17.170000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.265000,-23.045000 -49.265000,-23.055000 -49.275000,-23.055000 -49.275000,-23.045000 -49.265000,-23.045000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.360000,-17.150000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.865000,-23.195000 -47.865000,-23.205000 -47.875000,-23.205000 -47.875000,-23.195000 -47.865000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.855000,-23.215000 -47.855000,-23.225000 -47.865000,-23.225000 -47.865000,-23.215000 -47.855000,-23.215000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.865000,-23.195000 -47.865000,-23.205000 -47.875000,-23.205000 -47.875000,-23.195000 -47.865000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.865000,-23.195000 -47.865000,-23.205000 -47.875000,-23.205000 -47.875000,-23.195000 -47.865000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.855000,-23.215000 -47.855000,-23.225000 -47.865000,-23.225000 -47.865000,-23.215000 -47.855000,-23.215000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.865000,-23.195000 -47.865000,-23.205000 -47.875000,-23.205000 -47.875000,-23.195000 -47.865000,-23.195000</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.970000,-17.150000</coordinates>
+            </Point>
           </Placemark>
         </Folder>
         <Folder>
-          <name>NOAA-18</name>
+          <name>NPP-375</name>
           <visibility>1</visibility>
           <Placemark>
-            <name>NOAA-18</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.267358,-23.177741 -49.267358,-23.187741 -49.277358,-23.187741 -49.277358,-23.177741 -49.267358,-23.177741</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>TERRA_M-M</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>TERRA_M-M</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.272990,-23.207150 -49.272990,-23.217150 -49.282990,-23.217150 -49.282990,-23.207150 -49.272990,-23.207150</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.680630,-16.272690</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.260850,-23.205660 -49.260850,-23.215660 -49.270850,-23.215660 -49.270850,-23.205660 -49.260850,-23.205660</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-51.594260,-16.809830</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.659890,-22.826930 -48.659890,-22.836930 -48.669890,-22.836930 -48.669890,-22.826930 -48.659890,-22.826930</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-51.873850,-16.821410</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-47.087510,-23.333800 -47.087510,-23.343800 -47.097510,-23.343800 -47.097510,-23.333800 -47.087510,-23.333800</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>NOAA-19</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>NOAA-19</name>
-            <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.282968,-23.057466 -49.282968,-23.067466 -49.292968,-23.067466 -49.292968,-23.057466 -49.282968,-23.057466</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.365780,-17.605530</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.276769,-23.046500 -49.276769,-23.056500 -49.286769,-23.056500 -49.286769,-23.046500 -49.276769,-23.046500</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.551560,-18.077690</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.285325,-23.047765 -49.285325,-23.057765 -49.295325,-23.057765 -49.295325,-23.047765 -49.285325,-23.047765</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.003490,-18.329830</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.293889,-23.049029 -49.293889,-23.059029 -49.303889,-23.059029 -49.303889,-23.049029 -49.293889,-23.049029</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-52.585300,-16.934000</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
+            <name>NPP-375</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-49.302457,-23.050294 -49.302457,-23.060294 -49.312457,-23.060294 -49.312457,-23.050294 -49.302457,-23.050294</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.917300,-13.958480</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.921200,-13.959100</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.364710,-14.001920</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.397490,-14.007370</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.112560,-14.009660</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.621580,-14.546060</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.672970,-14.579420</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.810170,-14.649310</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.814060,-14.649940</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.817940,-14.650570</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.813490,-14.653410</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.855660,-14.663790</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.859550,-14.664420</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.863430,-14.665050</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.855090,-14.667250</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-51.126610,-15.250380</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.295620,-15.324170</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.581300,-15.327680</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.633970,-15.525910</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.707850,-16.178900</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-46.697260,-13.548530</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-46.692680,-13.551990</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-46.696480,-13.552670</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-48.882880,-13.813000</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.135020,-13.919020</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.917880,-13.955010</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.921780,-13.955630</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.189590,-16.087330</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-52.416030,-17.225240</coordinates>
+            </Point>
           </Placemark>
         </Folder>
         <Folder>
@@ -1875,38 +635,50 @@
           <Placemark>
             <name>AQUA_M-T</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.147590,-23.460140 -48.147590,-23.470140 -48.157590,-23.470140 -48.157590,-23.460140 -48.147590,-23.460140</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.494600,-13.728660</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>AQUA_M-T</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.144070,-23.453120 -48.144070,-23.463120 -48.154070,-23.463120 -48.154070,-23.453120 -48.144070,-23.453120</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.858980,-14.670650</coordinates>
+            </Point>
           </Placemark>
           <Placemark>
             <name>AQUA_M-T</name>
             <visibility>1</visibility>
-            <styleUrl>teste3</styleUrl>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>-48.098860,-23.962960 -48.098860,-23.972960 -48.108860,-23.972960 -48.108860,-23.962960 -48.098860,-23.962960</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-50.301010,-15.324170</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-51.518050,-15.583370</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.227180,-17.677560</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <visibility>1</visibility>
+            <styleUrl>buffer</styleUrl>
+            <Point>
+              <coordinates>-49.549900,-18.334150</coordinates>
+            </Point>
           </Placemark>
         </Folder>
       </Folder>
@@ -1919,1866 +691,178 @@
           <visibility>1</visibility>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.933970
-    LONG =  -48.832320
-    DATA = 2021-11-05 17:05:00
+            <description>LAT =  -16.944960
+    LONG =  -52.940290
+    DATA = 2021-11-08 17:49:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = BOTUCATU
+    ESTADO = GOIÁS
+    MUNICÍPIO = SANTA RITA DO ARAGUAIA
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-48.832320,-22.933970</coordinates>
+              <coordinates>-52.940290,-16.944960</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.933020
-    LONG =  -48.834610
-    DATA = 2021-11-06 04:17:00
+            <description>LAT =  -16.945910
+    LONG =  -52.944660
+    DATA = 2021-11-08 17:49:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = BOTUCATU
+    ESTADO = GOIÁS
+    MUNICÍPIO = SANTA RITA DO ARAGUAIA
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-48.834610,-22.933020</coordinates>
+              <coordinates>-52.944660,-16.945910</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.693550
-    LONG =  -47.659460
-    DATA = 2021-11-04 04:55:00
+            <description>LAT =  -13.915340
+    LONG =  -50.135960
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = MUNDO NOVO
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.659460,-22.693550</coordinates>
+              <coordinates>-50.135960,-13.915340</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.694380
-    LONG =  -47.658170
-    DATA = 2021-11-05 04:36:00
+            <description>LAT =  -13.920080
+    LONG =  -50.133500
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = MUNDO NOVO
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.658170,-22.694380</coordinates>
+              <coordinates>-50.133500,-13.920080</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.696580
-    LONG =  -47.655130
-    DATA = 2021-11-05 17:05:00
+            <description>LAT =  -14.278420
+    LONG =  -49.600940
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = CAMPOS VERDES
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.655130,-22.696580</coordinates>
+              <coordinates>-49.600940,-14.278420</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.693120
-    LONG =  -47.658120
-    DATA = 2021-11-06 04:19:00
+            <description>LAT =  -14.280680
+    LONG =  -49.600320
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = CAMPOS VERDES
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.658120,-22.693120</coordinates>
+              <coordinates>-49.600320,-14.280680</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.696440
-    LONG =  -47.658740
-    DATA = 2021-11-06 04:19:00
+            <description>LAT =  -14.649940
+    LONG =  -49.808790
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.658740,-22.696440</coordinates>
+              <coordinates>-49.808790,-14.649940</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.696060
-    LONG =  -47.656590
-    DATA = 2021-11-06 16:45:00
+            <description>LAT =  -14.666570
+    LONG =  -49.853880
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.656590,-22.696060</coordinates>
+              <coordinates>-49.853880,-14.666570</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -22.688240
-    LONG =  -47.886130
-    DATA = 2021-11-07 16:28:00
+            <description>LAT =  -14.667020
+    LONG =  -49.858070
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.886130,-22.688240</coordinates>
+              <coordinates>-49.858070,-14.667020</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -23.686750
-    LONG =  -47.309450
-    DATA = 2021-11-06 04:17:00
+            <description>LAT =  -16.498600
+    LONG =  -50.937770
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = IBIÚNA
+    ESTADO = GOIÁS
+    MUNICÍPIO = MOIPORÁ
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-47.309450,-23.686750</coordinates>
+              <coordinates>-50.937770,-16.498600</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>NOAA-20</name>
-            <description>LAT =  -23.397400
-    LONG =  -49.659290
-    DATA = 2021-11-05 17:05:00
+            <description>LAT =  -16.505000
+    LONG =  -50.937490
+    DATA = 2021-11-08 16:09:00
     SATÉLITE = NOAA-20
-    ESTADO = PR
-    MUNICÍPIO = CARLÓPOLIS
+    ESTADO = GOIÁS
+    MUNICÍPIO = MOIPORÁ
     VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>NOAA-20</styleUrl>
             <Point>
-              <coordinates>-49.659290,-23.397400</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.284290
-    LONG =  -49.481900
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SARUTAIÁ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-49.481900,-23.284290</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.046490
-    LONG =  -49.180320
-    DATA = 2021-11-04 17:24:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CERQUEIRA CÉSAR
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-49.180320,-23.046490</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.316600
-    LONG =  -49.146420
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ITAÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-49.146420,-23.316600</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.830180
-    LONG =  -48.671850
-    DATA = 2021-11-08 03:40:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PRATÂNIA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.671850,-22.830180</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.537280
-    LONG =  -48.813900
-    DATA = 2021-11-04 04:55:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = MACATUBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.813900,-22.537280</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.540540
-    LONG =  -48.815300
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = MACATUBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.815300,-22.540540</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.539800
-    LONG =  -48.813180
-    DATA = 2021-11-06 04:19:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = MACATUBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.813180,-22.539800</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.981680
-    LONG =  -48.647140
-    DATA = 2021-11-04 04:55:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ITATINGA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.647140,-22.981680</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.366540
-    LONG =  -48.350010
-    DATA = 2021-11-04 17:24:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.350010,-22.366540</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.365420
-    LONG =  -48.344620
-    DATA = 2021-11-04 17:24:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.344620,-22.365420</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.351240
-    LONG =  -48.364040
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.364040,-22.351240</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -22.350690
-    LONG =  -48.360170
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.360170,-22.350690</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.458950
-    LONG =  -48.145260
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.145260,-23.458950</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.458460
-    LONG =  -48.140870
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.140870,-23.458460</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.454690
-    LONG =  -48.145920
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.145920,-23.454690</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.454200
-    LONG =  -48.141560
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.141560,-23.454200</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.453710
-    LONG =  -48.137200
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.137200,-23.453710</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.920030
-    LONG =  -48.144250
-    DATA = 2021-11-04 17:24:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.144250,-23.920030</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.917730
-    LONG =  -48.147300
-    DATA = 2021-11-04 17:24:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.147300,-23.917730</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.888650
-    LONG =  -47.897010
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.897010,-23.888650</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.919040
-    LONG =  -48.144010
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.144010,-23.919040</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.964460
-    LONG =  -48.112830
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.112830,-23.964460</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.960630
-    LONG =  -48.117630
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.117630,-23.960630</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.960170
-    LONG =  -48.113380
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.113380,-23.960170</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.957370
-    LONG =  -48.111830
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.111830,-23.957370</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.956340
-    LONG =  -48.118270
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.118270,-23.956340</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.955870
-    LONG =  -48.113930
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.113930,-23.955870</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.954070
-    LONG =  -48.121080
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.121080,-23.954070</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.953570
-    LONG =  -48.116730
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.116730,-23.953570</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.952050
-    LONG =  -48.118920
-    DATA = 2021-11-07 16:26:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-48.118920,-23.952050</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.351150
-    LONG =  -47.892880
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.892880,-23.351150</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.336840
-    LONG =  -47.961260
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.961260,-23.336840</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.333230
-    LONG =  -47.961960
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.961960,-23.333230</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.359150
-    LONG =  -47.889150
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.889150,-23.359150</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.419240
-    LONG =  -47.982530
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.982530,-23.419240</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.724450
-    LONG =  -47.727080
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SARAPUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.727080,-23.724450</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.809530
-    LONG =  -47.824630
-    DATA = 2021-11-05 17:05:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PILAR DO SUL
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.824630,-23.809530</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.412280
-    LONG =  -46.915680
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SANTANA DE PARNAÍBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-46.915680,-23.412280</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.408330
-    LONG =  -46.916320
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SANTANA DE PARNAÍBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-46.916320,-23.408330</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.248470
-    LONG =  -47.486320
-    DATA = 2021-11-08 03:40:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PORTO FELIZ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.486320,-23.248470</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.243300
-    LONG =  -47.484810
-    DATA = 2021-11-08 03:40:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PORTO FELIZ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.484810,-23.243300</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.242510
-    LONG =  -47.488340
-    DATA = 2021-11-08 03:40:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = PORTO FELIZ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.488340,-23.242510</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.373080
-    LONG =  -47.463660
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SOROCABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.463660,-23.373080</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.592520
-    LONG =  -47.440920
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.440920,-23.592520</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.595030
-    LONG =  -47.439960
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.439960,-23.595030</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.591720
-    LONG =  -47.439350
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.439350,-23.591720</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.592620
-    LONG =  -47.438950
-    DATA = 2021-11-07 03:59:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.438950,-23.592620</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.206620
-    LONG =  -47.288090
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SALTO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.288090,-23.206620</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.205500
-    LONG =  -47.285820
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SALTO
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.285820,-23.205500</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.521750
-    LONG =  -47.052340
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO ROQUE
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.052340,-23.521750</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.532420
-    LONG =  -47.032710
-    DATA = 2021-11-07 03:57:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO ROQUE
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.032710,-23.532420</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.528630
-    LONG =  -47.031800
-    DATA = 2021-11-07 03:57:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = SÃO ROQUE
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.031800,-23.528630</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.334280
-    LONG =  -47.088200
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.088200,-23.334280</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.333690
-    LONG =  -47.091950
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.091950,-23.333690</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.337400
-    LONG =  -47.092250
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.092250,-23.337400</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.336840
-    LONG =  -47.088490
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.088490,-23.336840</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.259020
-    LONG =  -47.110530
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.110530,-23.259020</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.257100
-    LONG =  -47.110070
-    DATA = 2021-11-07 16:28:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.110070,-23.257100</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.438600
-    LONG =  -47.087360
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.087360,-23.438600</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.438220
-    LONG =  -47.089200
-    DATA = 2021-11-05 04:36:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.089200,-23.438220</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.439500
-    LONG =  -47.087590
-    DATA = 2021-11-06 04:17:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.087590,-23.439500</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.463080
-    LONG =  -47.047250
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.047250,-23.463080</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.441570
-    LONG =  -47.085910
-    DATA = 2021-11-06 16:45:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.085910,-23.441570</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NOAA-20</name>
-            <description>LAT =  -23.440720
-    LONG =  -47.086240
-    DATA = 2021-11-07 03:57:00
-    SATÉLITE = NOAA-20
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-20</styleUrl>
-            <Point>
-              <coordinates>-47.086240,-23.440720</coordinates>
-            </Point>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>NPP-375</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.689600
-    LONG =  -48.086100
-    DATA = 2021-11-06 17:37:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ITAPETININGA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.086100,-23.689600</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.694850
-    LONG =  -47.656690
-    DATA = 2021-11-04 04:06:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.656690,-22.694850</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.694810
-    LONG =  -47.657950
-    DATA = 2021-11-04 16:35:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.657950,-22.694810</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.785330
-    LONG =  -47.664590
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.664590,-22.785330</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.677380
-    LONG =  -47.768900
-    DATA = 2021-11-06 17:37:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.768900,-22.677380</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.696390
-    LONG =  -47.656790
-    DATA = 2021-11-07 17:19:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.656790,-22.696390</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.694890
-    LONG =  -47.658290
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.658290,-22.694890</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.285870
-    LONG =  -49.482490
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = SARUTAIÁ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-49.482490,-23.285870</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.467390
-    LONG =  -49.425130
-    DATA = 2021-11-04 16:35:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = TAGUAÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-49.425130,-23.467390</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.213330
-    LONG =  -49.328350
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-49.328350,-23.213330</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.209960
-    LONG =  -49.328450
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-49.328450,-23.209960</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.830290
-    LONG =  -48.668540
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = PRATÂNIA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.668540,-22.830290</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.538430
-    LONG =  -48.811350
-    DATA = 2021-11-04 04:06:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = MACATUBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.811350,-22.538430</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.987490
-    LONG =  -48.655820
-    DATA = 2021-11-04 04:06:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ITATINGA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.655820,-22.987490</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.979800
-    LONG =  -48.647030
-    DATA = 2021-11-04 04:06:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ITATINGA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.647030,-22.979800</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.197480
-    LONG =  -48.367690
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.367690,-22.197480</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -22.348520
-    LONG =  -48.365830
-    DATA = 2021-11-06 15:58:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = DOIS CÓRREGOS
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.365830,-22.348520</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.331330
-    LONG =  -47.963340
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = QUADRA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.963340,-23.331330</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.456510
-    LONG =  -48.144450
-    DATA = 2021-11-07 17:19:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-48.144450,-23.456510</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.208390
-    LONG =  -47.877380
-    DATA = 2021-11-07 17:19:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.877380,-23.208390</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.350790
-    LONG =  -47.894470
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.894470,-23.350790</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.336480
-    LONG =  -47.962650
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.962650,-23.336480</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.336160
-    LONG =  -47.959290
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.959290,-23.336160</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.331010
-    LONG =  -47.960030
-    DATA = 2021-11-05 16:16:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = TATUÍ
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.960030,-23.331010</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.410990
-    LONG =  -46.916260
-    DATA = 2021-11-07 17:17:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = SANTANA DE PARNAÍBA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-46.916260,-23.410990</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.592530
-    LONG =  -47.438130
-    DATA = 2021-11-04 04:08:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.438130,-23.592530</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.594290
-    LONG =  -47.438270
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = VOTORANTIM
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.438270,-23.594290</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.364390
-    LONG =  -47.251630
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ITU
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.251630,-23.364390</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.336030
-    LONG =  -47.087910
-    DATA = 2021-11-06 05:10:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.087910,-23.336030</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.335580
-    LONG =  -47.093650
-    DATA = 2021-11-06 05:10:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.093650,-23.335580</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.335380
-    LONG =  -47.087210
-    DATA = 2021-11-06 05:10:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.087210,-23.335380</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.334980
-    LONG =  -47.092800
-    DATA = 2021-11-06 05:10:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.092800,-23.334980</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.329480
-    LONG =  -47.088250
-    DATA = 2021-11-06 05:10:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.088250,-23.329480</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.439100
-    LONG =  -47.084180
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.084180,-23.439100</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.438940
-    LONG =  -47.086300
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.086300,-23.438940</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.438490
-    LONG =  -47.088630
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = ARAÇARIGUAMA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-47.088630,-23.438490</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>NPP-375</name>
-            <description>LAT =  -23.619910
-    LONG =  -46.839560
-    DATA = 2021-11-08 04:31:00
-    SATÉLITE = NPP-375
-    ESTADO = SP
-    MUNICÍPIO = COTIA
-    VERSÃO = 2.0NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NPP-375</styleUrl>
-            <Point>
-              <coordinates>-46.839560,-23.619910</coordinates>
-            </Point>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>TERRA_M-T</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <description>LAT =  -23.683610
-    LONG =  -48.044990
-    DATA = 2021-11-07 13:35:00
-    SATÉLITE = TERRA_M-T
-    ESTADO = SP
-    MUNICÍPIO = ITAPETININGA
-    VERSÃO = 6.1NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>TERRA_M-T</styleUrl>
-            <Point>
-              <coordinates>-48.044990,-23.683610</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <description>LAT =  -22.798050
-    LONG =  -47.691070
-    DATA = 2021-11-06 12:51:00
-    SATÉLITE = TERRA_M-T
-    ESTADO = SP
-    MUNICÍPIO = PIRACICABA
-    VERSÃO = 6.1NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>TERRA_M-T</styleUrl>
-            <Point>
-              <coordinates>-47.691070,-22.798050</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <description>LAT =  -23.399680
-    LONG =  -49.662050
-    DATA = 2021-11-05 13:46:00
-    SATÉLITE = TERRA_M-T
-    ESTADO = PR
-    MUNICÍPIO = CARLÓPOLIS
-    VERSÃO = 6.1NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>TERRA_M-T</styleUrl>
-            <Point>
-              <coordinates>-49.662050,-23.399680</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>TERRA_M-T</name>
-            <description>LAT =  -23.960610
-    LONG =  -48.104110
-    DATA = 2021-11-07 13:35:00
-    SATÉLITE = TERRA_M-T
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
-    VERSÃO = 6.1NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>TERRA_M-T</styleUrl>
-            <Point>
-              <coordinates>-48.104110,-23.960610</coordinates>
+              <coordinates>-50.937490,-16.505000</coordinates>
             </Point>
           </Placemark>
         </Folder>
@@ -3787,366 +871,694 @@
           <visibility>1</visibility>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.480000
-    LONG =  -49.750000
-    DATA = 2021-11-06 22:20:00
+            <description>LAT =  -18.580000
+    LONG =  -50.240000
+    DATA = 2021-11-08 18:50:00
     SATÉLITE = GOES-16
-    ESTADO = PR
-    MUNICÍPIO = CARLÓPOLIS
+    ESTADO = GOIÁS
+    MUNICÍPIO = GOUVELÂNDIA
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.750000,-23.480000</coordinates>
+              <coordinates>-50.240000,-18.580000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.500000
-    LONG =  -49.740000
-    DATA = 2021-11-06 22:20:00
+            <description>LAT =  -13.560000
+    LONG =  -46.690000
+    DATA = 2021-11-08 18:10:00
     SATÉLITE = GOES-16
-    ESTADO = PR
-    MUNICÍPIO = CARLÓPOLIS
+    ESTADO = GOIÁS
+    MUNICÍPIO = SÃO DOMINGOS
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.740000,-23.500000</coordinates>
+              <coordinates>-46.690000,-13.560000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -49.280000
-    DATA = 2021-11-08 00:40:00
+            <description>LAT =  -18.330000
+    LONG =  -49.990000
+    DATA = 2021-11-08 17:40:00
     SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
+    ESTADO = GOIÁS
+    MUNICÍPIO = BOM JESUS DE GOIÁS
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.280000,-23.200000</coordinates>
+              <coordinates>-49.990000,-18.330000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -49.260000
-    DATA = 2021-11-08 00:40:00
+            <description>LAT =  -13.560000
+    LONG =  -46.690000
+    DATA = 2021-11-08 17:40:00
     SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
+    ESTADO = GOIÁS
+    MUNICÍPIO = SÃO DOMINGOS
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.260000,-23.200000</coordinates>
+              <coordinates>-46.690000,-13.560000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.030000
-    LONG =  -49.270000
-    DATA = 2021-11-04 22:30:00
+            <description>LAT =  -17.170000
+    LONG =  -50.380000
+    DATA = 2021-11-08 16:10:00
     SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
+    ESTADO = GOIÁS
+    MUNICÍPIO = PARAÚNA
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.270000,-23.030000</coordinates>
+              <coordinates>-50.380000,-17.170000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.050000
-    LONG =  -49.270000
-    DATA = 2021-11-04 22:30:00
+            <description>LAT =  -17.150000
+    LONG =  -50.360000
+    DATA = 2021-11-08 16:10:00
     SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
+    ESTADO = GOIÁS
+    MUNICÍPIO = PARAÚNA
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-49.270000,-23.050000</coordinates>
+              <coordinates>-50.360000,-17.150000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -47.870000
-    DATA = 2021-11-07 18:10:00
+            <description>LAT =  -17.150000
+    LONG =  -50.970000
+    DATA = 2021-11-08 15:50:00
     SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
+    ESTADO = GOIÁS
+    MUNICÍPIO = RIO VERDE
     VERSÃO = V.1       
     </description>
             <visibility>1</visibility>
             <styleUrl>GOES-16</styleUrl>
             <Point>
-              <coordinates>-47.870000,-23.200000</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <description>LAT =  -23.220000
-    LONG =  -47.860000
-    DATA = 2021-11-07 18:10:00
-    SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = V.1       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>GOES-16</styleUrl>
-            <Point>
-              <coordinates>-47.860000,-23.220000</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -47.870000
-    DATA = 2021-11-07 18:20:00
-    SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = V.1       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>GOES-16</styleUrl>
-            <Point>
-              <coordinates>-47.870000,-23.200000</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -47.870000
-    DATA = 2021-11-07 18:30:00
-    SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = V.1       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>GOES-16</styleUrl>
-            <Point>
-              <coordinates>-47.870000,-23.200000</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <description>LAT =  -23.220000
-    LONG =  -47.860000
-    DATA = 2021-11-07 18:30:00
-    SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = V.1       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>GOES-16</styleUrl>
-            <Point>
-              <coordinates>-47.860000,-23.220000</coordinates>
-            </Point>
-          </Placemark>
-          <Placemark>
-            <name>GOES-16</name>
-            <description>LAT =  -23.200000
-    LONG =  -47.870000
-    DATA = 2021-11-07 18:40:00
-    SATÉLITE = GOES-16
-    ESTADO = SP
-    MUNICÍPIO = CESÁRIO LANGE
-    VERSÃO = V.1       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>GOES-16</styleUrl>
-            <Point>
-              <coordinates>-47.870000,-23.200000</coordinates>
+              <coordinates>-50.970000,-17.150000</coordinates>
             </Point>
           </Placemark>
         </Folder>
         <Folder>
-          <name>NOAA-18</name>
+          <name>NPP-375</name>
           <visibility>1</visibility>
           <Placemark>
-            <name>NOAA-18</name>
-            <description>LAT =  -23.182741
-    LONG =  -49.272358
-    DATA = 2021-11-08 01:54:54
-    SATÉLITE = NOAA-18
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
-    VERSÃO = V.2       
+            <name>NPP-375</name>
+            <description>LAT =  -16.272690
+    LONG =  -50.680630
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = FAZENDA NOVA
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>NOAA-18</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.272358,-23.182741</coordinates>
-            </Point>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>TERRA_M-M</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>TERRA_M-M</name>
-            <description>LAT =  -23.212150
-    LONG =  -49.277990
-    DATA = 2021-11-08 01:43:00
-    SATÉLITE = TERRA_M-M
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
-    VERSÃO = 6.1NRT    
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>TERRA_M-M</styleUrl>
-            <Point>
-              <coordinates>-49.277990,-23.212150</coordinates>
+              <coordinates>-50.680630,-16.272690</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
-            <description>LAT =  -23.210660
-    LONG =  -49.265850
-    DATA = 2021-11-08 01:43:00
-    SATÉLITE = TERRA_M-M
-    ESTADO = SP
-    MUNICÍPIO = PIRAJU
-    VERSÃO = 6.1NRT    
+            <name>NPP-375</name>
+            <description>LAT =  -16.809830
+    LONG =  -51.594260
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = PALESTINA DE GOIÁS
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>TERRA_M-M</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.265850,-23.210660</coordinates>
+              <coordinates>-51.594260,-16.809830</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
-            <description>LAT =  -22.831930
-    LONG =  -48.664890
-    DATA = 2021-11-08 01:43:00
-    SATÉLITE = TERRA_M-M
-    ESTADO = SP
-    MUNICÍPIO = PRATÂNIA
-    VERSÃO = 6.1NRT    
+            <name>NPP-375</name>
+            <description>LAT =  -16.821410
+    LONG =  -51.873850
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CAIAPÔNIA
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>TERRA_M-M</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-48.664890,-22.831930</coordinates>
+              <coordinates>-51.873850,-16.821410</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>TERRA_M-M</name>
-            <description>LAT =  -23.338800
-    LONG =  -47.092510
-    DATA = 2021-11-06 01:56:00
-    SATÉLITE = TERRA_M-M
-    ESTADO = SP
-    MUNICÍPIO = CABREÚVA
-    VERSÃO = 6.1NRT    
+            <name>NPP-375</name>
+            <description>LAT =  -17.605530
+    LONG =  -49.365780
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = PONTALINA
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>TERRA_M-M</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-47.092510,-23.338800</coordinates>
-            </Point>
-          </Placemark>
-        </Folder>
-        <Folder>
-          <name>NOAA-19</name>
-          <visibility>1</visibility>
-          <Placemark>
-            <name>NOAA-19</name>
-            <description>LAT =  -23.062466
-    LONG =  -49.287968
-    DATA = 2021-11-04 22:31:43
-    SATÉLITE = NOAA-19
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
-    VERSÃO = V.2       
-    </description>
-            <visibility>1</visibility>
-            <styleUrl>NOAA-19</styleUrl>
-            <Point>
-              <coordinates>-49.287968,-23.062466</coordinates>
+              <coordinates>-49.365780,-17.605530</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
-            <description>LAT =  -23.051500
-    LONG =  -49.281769
-    DATA = 2021-11-04 22:31:43
-    SATÉLITE = NOAA-19
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
-    VERSÃO = V.2       
+            <name>NPP-375</name>
+            <description>LAT =  -18.077690
+    LONG =  -50.551560
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = RIO VERDE
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>NOAA-19</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.281769,-23.051500</coordinates>
+              <coordinates>-50.551560,-18.077690</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
-            <description>LAT =  -23.052765
-    LONG =  -49.290325
-    DATA = 2021-11-04 22:31:43
-    SATÉLITE = NOAA-19
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
-    VERSÃO = V.2       
+            <name>NPP-375</name>
+            <description>LAT =  -18.329830
+    LONG =  -50.003490
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = BOM JESUS DE GOIÁS
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>NOAA-19</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.290325,-23.052765</coordinates>
+              <coordinates>-50.003490,-18.329830</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
-            <description>LAT =  -23.054029
-    LONG =  -49.298889
-    DATA = 2021-11-04 22:31:43
-    SATÉLITE = NOAA-19
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
-    VERSÃO = V.2       
+            <name>NPP-375</name>
+            <description>LAT =  -16.934000
+    LONG =  -52.585300
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = DOVERLÂNDIA
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>NOAA-19</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.298889,-23.054029</coordinates>
+              <coordinates>-52.585300,-16.934000</coordinates>
             </Point>
           </Placemark>
           <Placemark>
-            <name>NOAA-19</name>
-            <description>LAT =  -23.055294
-    LONG =  -49.307457
-    DATA = 2021-11-04 22:31:43
-    SATÉLITE = NOAA-19
-    ESTADO = SP
-    MUNICÍPIO = MANDURI
-    VERSÃO = V.2       
+            <name>NPP-375</name>
+            <description>LAT =  -13.958480
+    LONG =  -49.917300
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = UIRAPURU
+    VERSÃO = 2.0NRT    
     </description>
             <visibility>1</visibility>
-            <styleUrl>NOAA-19</styleUrl>
+            <styleUrl>NPP-375</styleUrl>
             <Point>
-              <coordinates>-49.307457,-23.055294</coordinates>
+              <coordinates>-49.917300,-13.958480</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.959100
+    LONG =  -49.921200
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = UIRAPURU
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.921200,-13.959100</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.001920
+    LONG =  -49.364710
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = MARA ROSA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.364710,-14.001920</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.007370
+    LONG =  -49.397490
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = MARA ROSA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.397490,-14.007370</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.009660
+    LONG =  -50.112560
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = UIRAPURU
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-50.112560,-14.009660</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.546060
+    LONG =  -49.621580
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = SANTA TEREZINHA DE GOIÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.621580,-14.546060</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.579420
+    LONG =  -49.672970
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = GUARINOS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.672970,-14.579420</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.649310
+    LONG =  -49.810170
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.810170,-14.649310</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.649940
+    LONG =  -49.814060
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.814060,-14.649940</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.650570
+    LONG =  -49.817940
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.817940,-14.650570</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.653410
+    LONG =  -49.813490
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.813490,-14.653410</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.663790
+    LONG =  -49.855660
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.855660,-14.663790</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.664420
+    LONG =  -49.859550
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.859550,-14.664420</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.665050
+    LONG =  -49.863430
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.863430,-14.665050</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -14.667250
+    LONG =  -49.855090
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.855090,-14.667250</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -15.250380
+    LONG =  -51.126610
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = BRITÂNIA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-51.126610,-15.250380</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -15.324170
+    LONG =  -50.295620
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = FAINA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-50.295620,-15.324170</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -15.327680
+    LONG =  -50.581300
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = FAINA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-50.581300,-15.327680</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -15.525910
+    LONG =  -49.633970
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = URUANA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.633970,-15.525910</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -16.178900
+    LONG =  -50.707850
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = FAZENDA NOVA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-50.707850,-16.178900</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.548530
+    LONG =  -46.697260
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = SÃO DOMINGOS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-46.697260,-13.548530</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.551990
+    LONG =  -46.692680
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = SÃO DOMINGOS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-46.692680,-13.551990</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.552670
+    LONG =  -46.696480
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = SÃO DOMINGOS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-46.696480,-13.552670</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.813000
+    LONG =  -48.882880
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = FORMOSO
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-48.882880,-13.813000</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.919020
+    LONG =  -50.135020
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = MUNDO NOVO
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-50.135020,-13.919020</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.955010
+    LONG =  -49.917880
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = UIRAPURU
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.917880,-13.955010</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -13.955630
+    LONG =  -49.921780
+    DATA = 2021-11-08 17:02:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = UIRAPURU
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.921780,-13.955630</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -16.087330
+    LONG =  -49.189590
+    DATA = 2021-11-08 04:29:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = PETROLINA DE GOIÁS
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-49.189590,-16.087330</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>NPP-375</name>
+            <description>LAT =  -17.225240
+    LONG =  -52.416030
+    DATA = 2021-11-08 04:29:00
+    SATÉLITE = NPP-375
+    ESTADO = GOIÁS
+    MUNICÍPIO = DOVERLÂNDIA
+    VERSÃO = 2.0NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>NPP-375</styleUrl>
+            <Point>
+              <coordinates>-52.416030,-17.225240</coordinates>
             </Point>
           </Placemark>
         </Folder>
@@ -4155,50 +1567,98 @@
           <visibility>1</visibility>
           <Placemark>
             <name>AQUA_M-T</name>
-            <description>LAT =  -23.465140
-    LONG =  -48.152590
-    DATA = 2021-11-07 16:24:00
+            <description>LAT =  -13.728660
+    LONG =  -49.494600
+    DATA = 2021-11-08 17:09:00
     SATÉLITE = AQUA_M-T
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
+    ESTADO = GOIÁS
+    MUNICÍPIO = MUTUNÓPOLIS
     VERSÃO = 6.1NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>AQUA_M-T</styleUrl>
             <Point>
-              <coordinates>-48.152590,-23.465140</coordinates>
+              <coordinates>-49.494600,-13.728660</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>AQUA_M-T</name>
-            <description>LAT =  -23.458120
-    LONG =  -48.149070
-    DATA = 2021-11-07 16:24:00
+            <description>LAT =  -14.670650
+    LONG =  -49.858980
+    DATA = 2021-11-08 17:09:00
     SATÉLITE = AQUA_M-T
-    ESTADO = SP
-    MUNICÍPIO = GUAREÍ
+    ESTADO = GOIÁS
+    MUNICÍPIO = CRIXÁS
     VERSÃO = 6.1NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>AQUA_M-T</styleUrl>
             <Point>
-              <coordinates>-48.149070,-23.458120</coordinates>
+              <coordinates>-49.858980,-14.670650</coordinates>
             </Point>
           </Placemark>
           <Placemark>
             <name>AQUA_M-T</name>
-            <description>LAT =  -23.967960
-    LONG =  -48.103860
-    DATA = 2021-11-07 16:24:00
+            <description>LAT =  -15.324170
+    LONG =  -50.301010
+    DATA = 2021-11-08 17:09:00
     SATÉLITE = AQUA_M-T
-    ESTADO = SP
-    MUNICÍPIO = SÃO MIGUEL ARCANJO
+    ESTADO = GOIÁS
+    MUNICÍPIO = FAINA
     VERSÃO = 6.1NRT    
     </description>
             <visibility>1</visibility>
             <styleUrl>AQUA_M-T</styleUrl>
             <Point>
-              <coordinates>-48.103860,-23.967960</coordinates>
+              <coordinates>-50.301010,-15.324170</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <description>LAT =  -15.583370
+    LONG =  -51.518050
+    DATA = 2021-11-08 17:09:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIÁS
+    MUNICÍPIO = JUSSARA
+    VERSÃO = 6.1NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>AQUA_M-T</styleUrl>
+            <Point>
+              <coordinates>-51.518050,-15.583370</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <description>LAT =  -17.677560
+    LONG =  -49.227180
+    DATA = 2021-11-08 17:09:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIÁS
+    MUNICÍPIO = MORRINHOS
+    VERSÃO = 6.1NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>AQUA_M-T</styleUrl>
+            <Point>
+              <coordinates>-49.227180,-17.677560</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>AQUA_M-T</name>
+            <description>LAT =  -18.334150
+    LONG =  -49.549900
+    DATA = 2021-11-08 17:09:00
+    SATÉLITE = AQUA_M-T
+    ESTADO = GOIÁS
+    MUNICÍPIO = ITUMBIARA
+    VERSÃO = 6.1NRT    
+    </description>
+            <visibility>1</visibility>
+            <styleUrl>AQUA_M-T</styleUrl>
+            <Point>
+              <coordinates>-49.549900,-18.334150</coordinates>
             </Point>
           </Placemark>
         </Folder>

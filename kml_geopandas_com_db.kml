@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monitoramento de Queimadas Focos e Buffers</name>
+    <description>Monitoramento de queimadas em tempo real.</description>
+    <visibility>1</visibility>
+    <StyleMap id="poly-foco">
+      <Pair>
+        <key>normal</key>
+        <Style>
+          <PolyStyle>
+            <color>B300A5FF</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF4763FF</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <Style>
+          <PolyStyle>
+            <color>4D00A5FF</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF0000FF</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="poly-foco-anterior">
+      <Pair>
+        <key>normal</key>
+        <Style>
+          <PolyStyle>
+            <color>CC000000</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF000000</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <Style>
+          <PolyStyle>
+            <color>4D000000</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF000000</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <Style id="2021-11-10 17">
+      <IconStyle>
+        <color>ff00008b</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 16">
+      <IconStyle>
+        <color>ff2222b2</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 15">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 14">
+      <IconStyle>
+        <color>ff4763ff</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 13">
+      <IconStyle>
+        <color>ff507fff</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 12">
+      <IconStyle>
+        <color>ff7aa0ff</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 11">
+      <IconStyle>
+        <color>ff13458b</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 10">
+      <IconStyle>
+        <color>ff0b86b8</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 09">
+      <IconStyle>
+        <color>ff20a5da</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 08">
+      <IconStyle>
+        <color>ff60a4f4</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 07">
+      <IconStyle>
+        <color>ff87b8de</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 06">
+      <IconStyle>
+        <color>ffb3def5</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 05">
+      <IconStyle>
+        <color>ffe16941</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 04">
+      <IconStyle>
+        <color>ffffbf00</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 03">
+      <IconStyle>
+        <color>ffffff00</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 02">
+      <IconStyle>
+        <color>ffd1ce00</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 01">
+      <IconStyle>
+        <color>ffd0e040</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-10 00">
+      <IconStyle>
+        <color>ffd4ff7f</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 23">
+      <IconStyle>
+        <color>ff008000</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 22">
+      <IconStyle>
+        <color>ff32cd32</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 21">
+      <IconStyle>
+        <color>ff2fffad</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 20">
+      <IconStyle>
+        <color>ff9afa00</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 19">
+      <IconStyle>
+        <color>ff7fff00</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 18">
+      <IconStyle>
+        <color>ff90ee90</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-09 17">
+      <IconStyle>
+        <color>ff98fb98</color>
+        <scale>0.6</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Focos por Data</name>
+      <description>Focos de queimadas organizados por data.</description>
+      <visibility>1</visibility>
+      <Folder>
+        <name>2021-11-10</name>
+        <visibility>1</visibility>
+        <Folder>
+          <name>Focos</name>
+          <description>Local onde o satélite registrou o foco.</description>
+          <visibility>1</visibility>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -13.882830&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.837220&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.837220,-13.882830</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -13.886140&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.837750&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.837750,-13.886140</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.019200&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.745640&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.745640,-14.019200</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.019760&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.742080&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.742080,-14.019760</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.022520&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.746170&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.746170,-14.022520</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.023080&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.742610&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.742610,-14.023080</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.023630&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.739060&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.739060,-14.023630</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.302230&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.824680&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; ARUANÃ&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.824680,-14.302230</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.019090&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.744960&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 03:51:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NPP-375&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 14h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 03</styleUrl>
+            <Point>
+              <coordinates>-50.744960,-14.019090</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.022090&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.748180&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 03:51:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NPP-375&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 14h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 03</styleUrl>
+            <Point>
+              <coordinates>-50.748180,-14.022090</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.023160&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.742990&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 03:51:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NPP-375&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 14h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 03</styleUrl>
+            <Point>
+              <coordinates>-50.742990,-14.023160</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.025310&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.746390&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 03:51:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NPP-375&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 14h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 03</styleUrl>
+            <Point>
+              <coordinates>-50.746390,-14.025310</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.883270&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.576000&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:40:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; MOZARLÂNDIA&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.576000,-14.883270</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -17.289040&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -51.936880&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:42:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; CAIAPÔNIA&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-51.936880,-17.289040</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -18.362850&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -52.385470&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:42:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; SERRANÓPOLIS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-52.385470,-18.362850</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.018500&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.742210&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:44:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; AQUA_M-M&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.742210,-14.018500</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>2021-11-10</name>
+            <description>&lt;b&gt;LAT =&lt;/b&gt;  -14.020030&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -50.732300&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-10 04:44:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; AQUA_M-M&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; NOVA CRIXÁS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 13h (UTC: 17:36:25)&lt;br&gt;   
+            </description>
+            <visibility>1</visibility>
+            <styleUrl>2021-11-10 04</styleUrl>
+            <Point>
+              <coordinates>-50.732300,-14.020030</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder>
+          <name>Frentes de Fogo Ativo</name>
+          <description>Área de cobertura em torno de determinado foco.</description>
+          <visibility>1</visibility>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-52.380470,-18.357850 -52.380470,-18.367850 -52.390470,-18.367850 -52.390470,-18.357850 -52.380470,-18.357850</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-51.931880,-17.284040 -51.931880,-17.294040 -51.941880,-17.294040 -51.941880,-17.284040 -51.931880,-17.284040</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.571000,-14.878270 -50.571000,-14.888270 -50.581000,-14.888270 -50.581000,-14.878270 -50.571000,-14.878270</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.819680,-14.297230 -50.819680,-14.307230 -50.829680,-14.307230 -50.829680,-14.297230 -50.819680,-14.297230</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.832750,-13.887830 -50.832750,-13.891140 -50.842750,-13.891140 -50.842750,-13.881140 -50.842220,-13.881140 -50.842220,-13.877830 -50.832220,-13.877830 -50.832220,-13.887830 -50.832750,-13.887830</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-10</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.741390,-14.028630 -50.741390,-14.030310 -50.751390,-14.030310 -50.751390,-14.027090 -50.753180,-14.027090 -50.753180,-14.017090 -50.750640,-14.017090 -50.750640,-14.014200 -50.749960,-14.014200 -50.749960,-14.014090 -50.747210,-14.014090 -50.747210,-14.013500 -50.737210,-14.013500 -50.737210,-14.014760 -50.737080,-14.014760 -50.737080,-14.015030 -50.727300,-14.015030 -50.727300,-14.025030 -50.734060,-14.025030 -50.734060,-14.028630 -50.741390,-14.028630</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>2021-11-09</name>
+        <visibility>1</visibility>
+        <Folder>
+          <name>Frentes de Fogo Ativo</name>
+          <description>Área de cobertura em torno de determinado foco.</description>
+          <visibility>1</visibility>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.245000,-17.165000 -50.245000,-17.175000 -50.255000,-17.175000 -50.255000,-17.165000 -50.245000,-17.165000</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.195000,-17.145000 -50.195000,-17.155000 -50.205000,-17.155000 -50.205000,-17.145000 -50.195000,-17.145000</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.195000,-17.165000 -50.195000,-17.175000 -50.205000,-17.175000 -50.205000,-17.165000 -50.195000,-17.165000</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.215000,-17.165000 -50.215000,-17.175000 -50.225000,-17.175000 -50.225000,-17.165000 -50.215000,-17.165000</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.205000,-17.125000 -50.205000,-17.135000 -50.215000,-17.135000 -50.215000,-17.125000 -50.205000,-17.125000</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-49.598740,-16.775570 -49.598740,-16.785570 -49.608740,-16.785570 -49.608740,-16.775570 -49.598740,-16.775570</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-50.926850,-16.454280 -50.926850,-16.464280 -50.936850,-16.464280 -50.936850,-16.454280 -50.926850,-16.454280</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>Data de ocorrência: &lt;br&gt;&lt;b&gt;2021-11-09</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-49.490480,-15.994330 -49.490480,-16.004330 -49.500480,-16.004330 -49.500480,-15.994330 -49.490480,-15.994330</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+        </Folder>
+      </Folder>
+    </Folder>
+    <ScreenOverlay>
+      <name>Logo</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/logo.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.96" y="0.84" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <ScreenOverlay>
+      <name>Legenda</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/legend_hora.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.74" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+  </Document>
+</kml>

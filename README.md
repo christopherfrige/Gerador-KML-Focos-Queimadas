@@ -1,11 +1,20 @@
 # Gerador-KML-Jupyter-Testes
 
-Esse projeto foi desenvolvido no **INPE** - Instituto Nacional de Pesquisas Espaciais, e aborda a aplicação do Python com bibliotecas relacionadas a Geoprocessamento. <br>
+Esse projeto foi desenvolvido no **INPE - Instituto Nacional de Pesquisas Espaciais**, e aborda a aplicação do Python com bibliotecas relacionadas a Geoprocessamento. <br>
 
 Sendo mais específico, é estudado sobre a criação de KMLs, que consiste num formato de arquivo baseado em XML, para fazer a representação de dados geográficos em aplicativos, como por exemplo o Google Earth. <br>
 *Mais informações sobre o formato KML [aqui](https://developers.google.com/kml/documentation).*
 
-Dessa forma, apesar de todos os testes no **Jupyter Notebook** estarem utilizando a biblioteca FastKML, foi estudado diferentes formas de ingestão de dados e criação do arquivo, seja por meio do Pandas atuando com um CSV, ou realizando consultas ao PostgreSQL.
+Dessa forma, apesar de todos os testes no **Jupyter Notebook** estarem utilizando a biblioteca FastKML, foi estudado diferentes formas de ingestão de dados e criação do arquivo, seja por meio do Pandas atuando com um CSV, ou realizando consultas ao banco de dados PostgreSQL.
+
+<img src=https://i.imgur.com/tvz3RWF.jpeg>
+
+***Pontos coloridos:** Focos de Queimadas, com cor baseada no intervalo desde que ocorreu (legenda).*
+
+<img src=https://i.imgur.com/R5WmvV6.jpeg>
+
+***Área em laranja:** Frente de Fogo Ativo do dia atual (área de 500m ao redor do foco). <br>
+**Área em preto:** Frente de Fogo Ativo do dia anterior.*
 
 ## Requisitos
 
@@ -60,9 +69,3 @@ Alterar as informações para o acesso ao banco de dados:
 
     engine = create_engine(f'postgresql+psycopg2://USER:PASS@HOST:PORT/DATABASE', poolclass=pool.NullPool)
 
-
-## Registro de Mudanças (Changelog)
-
-Tomando como base o arquivo **gerador.py**, que contém a última versão lançada.
-
-*Em construção*

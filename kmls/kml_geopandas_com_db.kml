@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monitoramento de Queimadas Focos e Buffers</name>
+    <description>Monitoramento de queimadas em tempo real.</description>
+    <visibility>1</visibility>
+    <StyleMap id="poly-foco">
+      <Pair>
+        <key>normal</key>
+        <Style>
+          <PolyStyle>
+            <color>B300A5FF</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF4763FF</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <Style>
+          <PolyStyle>
+            <color>4D00A5FF</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF0000FF</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="poly-foco-anterior">
+      <Pair>
+        <key>normal</key>
+        <Style>
+          <PolyStyle>
+            <color>CC000000</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF000000</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <Style>
+          <PolyStyle>
+            <color>4D000000</color>
+            <fill>1</fill>
+            <outline>1</outline>
+          </PolyStyle>
+          <LineStyle>
+            <color>FF000000</color>
+            <width>1</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <Style id="2021-11-16 13">
+      <IconStyle>
+        <color>ff00008b</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 12">
+      <IconStyle>
+        <color>ff2222b2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 11">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 10">
+      <IconStyle>
+        <color>ff4763ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 09">
+      <IconStyle>
+        <color>ff507fff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 08">
+      <IconStyle>
+        <color>ff7aa0ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 07">
+      <IconStyle>
+        <color>ff13458b</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 06">
+      <IconStyle>
+        <color>ff0b86b8</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 05">
+      <IconStyle>
+        <color>ff20a5da</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 04">
+      <IconStyle>
+        <color>ff60a4f4</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 03">
+      <IconStyle>
+        <color>ff87b8de</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 02">
+      <IconStyle>
+        <color>ffb3def5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 01">
+      <IconStyle>
+        <color>ffe16941</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-16 00">
+      <IconStyle>
+        <color>ffffbf00</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 23">
+      <IconStyle>
+        <color>ffffff00</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 22">
+      <IconStyle>
+        <color>ffd1ce00</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 21">
+      <IconStyle>
+        <color>ffd0e040</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 20">
+      <IconStyle>
+        <color>ffd4ff7f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 19">
+      <IconStyle>
+        <color>ff008000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 18">
+      <IconStyle>
+        <color>ff32cd32</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 17">
+      <IconStyle>
+        <color>ff2fffad</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 16">
+      <IconStyle>
+        <color>ff9afa00</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 15">
+      <IconStyle>
+        <color>ff7fff00</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 14">
+      <IconStyle>
+        <color>ff90ee90</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="2021-11-15 13">
+      <IconStyle>
+        <color>ff98fb98</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Focos por Data</name>
+      <description>Focos de queimadas organizados por data.</description>
+      <visibility>1</visibility>
+      <Folder>
+        <name>2021-11-16</name>
+        <visibility>1</visibility>
+        <Folder>
+          <name>Focos</name>
+          <description>Local onde o satélite registrou o foco.</description>
+          <visibility>1</visibility>
+          <Folder>
+            <name>9h</name>
+            <visibility>1</visibility>
+            <Placemark>
+              <name>2021-11-16</name>
+              <description>&lt;b&gt;LAT =&lt;/b&gt;  -17.673270&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -52.259150&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-16 04:27:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; MINEIROS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 9h (UTC: 13:00:04)&lt;br&gt;   
+            </description>
+              <visibility>1</visibility>
+              <styleUrl>2021-11-16 04</styleUrl>
+              <Point>
+                <coordinates>-52.259150,-17.673270</coordinates>
+              </Point>
+            </Placemark>
+            <Placemark>
+              <name>2021-11-16</name>
+              <description>&lt;b&gt;LAT =&lt;/b&gt;  -17.676100&lt;br&gt;
+            &lt;b&gt;LONG =&lt;/b&gt;  -52.264320&lt;br&gt;
+            &lt;b&gt;DATA =&lt;/b&gt; 2021-11-16 04:27:00&lt;br&gt;
+            &lt;b&gt;SATÉLITE =&lt;/b&gt; NOAA-20&lt;br&gt;
+            &lt;b&gt;ESTADO =&lt;/b&gt; GOIÁS&lt;br&gt;
+            &lt;b&gt;MUNICÍPIO =&lt;/b&gt; MINEIROS&lt;br&gt;
+            &lt;b&gt;INTERVALO =&lt;/b&gt; 9h (UTC: 13:00:04)&lt;br&gt;   
+            </description>
+              <visibility>1</visibility>
+              <styleUrl>2021-11-16 04</styleUrl>
+              <Point>
+                <coordinates>-52.264320,-17.676100</coordinates>
+              </Point>
+            </Placemark>
+          </Folder>
+        </Folder>
+        <Folder>
+          <name>Frentes de Fogo Ativo</name>
+          <description>Área de cobertura em torno de determinado foco.</description>
+          <visibility>1</visibility>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>&lt;b&gt;Data de ocorrência:&lt;/b&gt; &lt;br&gt;2021-11-16&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Área:&lt;/b&gt; 194.18 ha</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-52.259320,-17.678270 -52.259320,-17.681100 -52.269320,-17.681100 -52.269320,-17.671100 -52.264150,-17.671100 -52.264150,-17.668270 -52.254150,-17.668270 -52.254150,-17.678270 -52.259320,-17.678270</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>2021-11-15</name>
+        <visibility>1</visibility>
+        <Folder>
+          <name>Frentes de Fogo Ativo</name>
+          <description>Área de cobertura em torno de determinado foco.</description>
+          <visibility>1</visibility>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>&lt;b&gt;Data de ocorrência:&lt;/b&gt; &lt;br&gt;2021-11-15&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Área:&lt;/b&gt; 117.74 ha</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-52.551720,-17.170260 -52.551720,-17.180260 -52.561720,-17.180260 -52.561720,-17.170260 -52.551720,-17.170260</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Frente de Fogo Ativo</name>
+            <description>&lt;b&gt;Data de ocorrência:&lt;/b&gt; &lt;br&gt;2021-11-15&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Área:&lt;/b&gt; 118.63 ha</description>
+            <visibility>1</visibility>
+            <styleUrl>poly-foco-anterior</styleUrl>
+            <Polygon>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>-49.032660,-15.671220 -49.032660,-15.681220 -49.042660,-15.681220 -49.042660,-15.671220 -49.032660,-15.671220</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
+        </Folder>
+      </Folder>
+    </Folder>
+    <ScreenOverlay>
+      <name>Logo</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/logo.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.96" y="0.84" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <ScreenOverlay>
+      <name>Legenda</name>
+      <Icon>
+        <href>http://queimadas.dgi.inpe.br/queimadas/portal-static/kml/images/legend_hora.png</href>
+      </Icon>
+      <overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0.99" y="0.74" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+  </Document>
+</kml>

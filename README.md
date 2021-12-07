@@ -1,8 +1,8 @@
-# Gerador-KML-Jupyter-Testes
+# Gerador-KML-Focos-Queimadas
 
 Esse projeto foi desenvolvido no **INPE - Instituto Nacional de Pesquisas Espaciais**, e aborda a aplicação do Python com bibliotecas relacionadas a Geoprocessamento. <br>
 
-Sendo mais específico, é estudado sobre a criação de KMLs, que consiste num formato de arquivo baseado em XML, para fazer a representação de dados geográficos em aplicativos, como por exemplo o Google Earth. <br>
+Tendo em vista isso, este repositório aborda sobre a criação de KMLs, que consiste num formato de arquivo baseado em XML, para fazer a representação de dados geográficos em aplicativos, como por exemplo o Google Earth. <br>
 *Mais informações sobre o formato KML [aqui](https://developers.google.com/kml/documentation).*
 
 Dessa forma, apesar de todos os testes no **Jupyter Notebook** estarem utilizando a biblioteca FastKML, foi estudado diferentes formas de ingestão de dados e criação do arquivo, seja por meio do Pandas atuando com um CSV, ou realizando consultas ao banco de dados PostgreSQL.

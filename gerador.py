@@ -43,12 +43,12 @@ CORES = ('ff00008b', 'ff2222b2', 'ff0000ff', 'ff4763ff', 'ff507fff', 'ff7aa0ff',
     'ff13458b', 'ff0b86b8', 'ff20a5da', 'ff60a4f4', 'ff87b8de', 'ffb3def5',
     'ffe16941', 'ffffbf00', 'ffffff00', 'ffd1ce00', 'ffd0e040', 'ffd4ff7f',
     'ff008000', 'ff32cd32', 'ff2fffad', 'ff9afa00', 'ff7fff00', 'ff90ee90', 'ff98fb98')
-NOME_ARQUIVO_KML = f"kml_geopandas_com_db.kml"
+NOME_ARQUIVO_KML = f"kmls/kml_geopandas_com_db"
 
 # Entrada de dados por meio de argumento
 if sys.argv[-1][:2] == "20":
     DATA_ATUAL = sys.argv[-1].replace("-", "")
-    NOME_ARQUIVO_KML = f"kml_geopandas_com_db-{DATA_ATUAL}.kml"
+    NOME_ARQUIVO_KML = NOME_ARQUIVO_KML+"-"+DATA_ATUAL
     DATA_ATUAL = datetime.strptime(DATA_ATUAL, "%Y%m%d")
     DATA_ATUAL = DATA_ATUAL.replace(hour=23, minute=59, second=0)
 else:
@@ -77,7 +77,7 @@ estilos = [stylemap_polygon, stylemap_polygon_anterior]
 # Estilos Focos
 for i in range(len(CORES)):
     horario = (DATA_ATUAL - timedelta(hours=i)).strftime("%Y-%m-%d %H")
-    icon_style = styles.IconStyle(icon_href='http://maps.google.com/mapfiles/kml/shapes/placemark_square.png', scale=0.6, color=CORES[i])    
+    icon_style = styles.IconStyle(icon_href='http://maps.google.com/mapfiles/kml/shapes/placemark_square.png', scale=1, color=CORES[i])    
     label_style = styles.LabelStyle(ns=ns, scale=0)
     style_list = styles.Style(styles = [icon_style, label_style], id=horario)
     estilos.append(style_list)
@@ -92,7 +92,7 @@ documento.append(mainFolder)
 
 datas = [data.strftime("%Y-%m-%d") for data in [DATA_ATUAL, DATA_INICIAL]]
 for data in datas:
-    dateFolder = kml.Folder(ns=ns, name=data)
+    dateFolder = kml.Folder(ns= ns, name=data)
     mainFolder.append(dateFolder)
 
     sql_pontos = f"""
@@ -109,44 +109,62 @@ for data in datas:
             WHERE
                 data_pas::date = '{data}'
                 and id_0 = 33
-                and id_1 = 52
+                and id_1 = 50
+                and id_tipo_area_industrial is null;
         """
 
     sql_buffers = f"""
         SELECT 
             (ST_Dump(st_union( st_buffer(geom, 0.005, 'endcap=square')))).geom as geom, 
+            st_area((ST_Dump(st_union(st_buffer(geom, 0.005, 'endcap=square')))).geom::geography)/10000 as hectare,
             data_pas::date as data_pas
             FROM
                 public.focos_operacao 
             WHERE
                 data_pas::date = '{data}'
                 and id_0 = 33
-                and id_1 = 52
+                and id_1 = 50
+                and id_tipo_area_industrial is null
             GROUP BY data_pas::date
-            ORDER BY data_pas::date
+            ORDER BY data_pas;
         """
 
+
+
     if data == DATA_ATUAL.strftime("%Y-%m-%d"):
-        pontoFolder = kml.Folder(ns=ns, name='Focos', description='Local onde o satélite registrou o foco.')
-        dateFolder.append(pontoFolder)
+        focosFolder = kml.Folder(ns=ns, name='Focos', description='Local onde o satélite registrou o foco.')
+        dateFolder.append(focosFolder)
 
         # Faz a query, monta um dataframe com o resultado e converte a coluna "geom" para objeto geometry
         df_pontos = gpd.GeoDataFrame.from_postgis(sql=sql_pontos, con=ENGINE, geom_col='geom', crs=4326)
+
+        hourFolder_nomes = []
+        hourFolder_objetos = []
         for foco in df_pontos.itertuples():
+            #if foco.data_pas.hour == df_pontos.data_pas.dt.hour.max(): Para mostrar apenas a ultima passagem
             data_styleUrl = foco.data_pas.strftime("%Y-%m-%d %H")
-            intervalo = DATA_ATUAL.hour - foco.data_pas.hour
+            intervalo = f"{DATA_ATUAL.hour - foco.data_pas.hour}h"
+    
             descricao = f"""<b>LAT =</b> {foco.latitude}<br>
             <b>LONG =</b> {foco.longitude}<br>
             <b>DATA =</b> {foco.data_pas}<br>
             <b>SATÉLITE =</b> {foco.cod_sat}<br>
             <b>ESTADO =</b> {foco.estado}<br>
             <b>MUNICÍPIO =</b> {foco.municipio}<br>
-            <b>INTERVALO =</b> {intervalo}h (UTC: {DATA_ATUAL.strftime('%H:%M:%S')})<br>   
+            <b>INTERVALO =</b> {intervalo} (UTC: {DATA_ATUAL.strftime('%H:%M:%S')})<br>   
             """
             
             ponto = kml.Placemark(ns=ns, name=data, description=descricao, styleUrl=data_styleUrl)
             ponto.geometry = foco.geom
-            pontoFolder.append(ponto)
+
+            if not intervalo in hourFolder_nomes:
+                hourFolder = kml.Folder(ns=ns, name=intervalo)
+                focosFolder.append(hourFolder)
+                hourFolder.append(ponto)
+                hourFolder_nomes.append(intervalo)
+                hourFolder_objetos.append(hourFolder)
+            else:
+                hourFolder_objetos[hourFolder_nomes.index(intervalo)].append(ponto)
 
     # Faz a query, monta um dataframe com o resultado e converte a coluna "geom" para objeto geometry
     df_buffers = gpd.GeoDataFrame.from_postgis(sql=sql_buffers, con=ENGINE, geom_col='geom', crs=4326)
@@ -158,12 +176,14 @@ for data in datas:
         buffer = kml.Placemark(
         ns = ns, 
         name = 'Frente de Fogo Ativo', 
-        description = f'Data de ocorrência: <br><b>{data}', 
+        description = f'''<b>Data de ocorrência:</b> <br>{data}<br><br>
+        <b>Área:</b> {round(foco_buffer.hectare)} ha''', 
         styleUrl = 'poly-foco' if data == DATA_ATUAL.strftime("%Y-%m-%d") else 'poly-foco-anterior')
+
         buffer.geometry = foco_buffer.geom
         bufferFolder.append(buffer)
 
-with open(NOME_ARQUIVO_KML, 'w+') as kml_file:
+with open(f"{NOME_ARQUIVO_KML}.kml", 'w+') as kml_file:
     arquivo = Arquivo(kml_file)
     arquivo.iniciar()
     # slicing de -22 para remover as propriedades </Document> e </kml>, tornando possível a adição de Screens Overlays
